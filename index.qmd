@@ -1,5 +1,5 @@
 ---
-title: "andreasmeid.github.io"
+title: "Andreas Meid (github)"
 ---
 
 This is a Quarto website.
