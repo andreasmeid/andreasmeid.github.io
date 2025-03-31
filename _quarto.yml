@@ -7,11 +7,11 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: about.qmd
       - href: test.qmd 
         text: Testseite
-      #- href: https://andreas-d-meid.netlify.app/ 
-      #  text: Academic Biography
+      - href: https://andreas-d-meid.netlify.app/ 
+        text: Academic Biography
   #sidebar
 
 format:

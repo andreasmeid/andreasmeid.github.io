@@ -2,9 +2,12 @@
 title: "Andreas Meid (github)"
 ---
 
-This is a Quarto website.
+This is the personal website of Andreas D. Meid.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+In addition to other channels, you can find more detailed reports on projects here. 
+
+I am currently involved in ...
+
 
 ```{r}
 1 + 1
