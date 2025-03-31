@@ -2,8 +2,8 @@
 title: "About"
 ---
 
-About this site
+Link to Andreas-D-Meid.netlify.app
 
-```{r}
+```{r results='hide'}
 1 + 1
 ```
