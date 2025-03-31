@@ -20,8 +20,8 @@ website:
     contents:
       - href: test.qmd 
         text: Testseite
-      #- text: Example
-      #  href: presentation/example/index.html
+      - text: Example presentation
+        href: presentation/Test_slides.qmd
 
 format:
   html:
