@@ -1,6 +1,7 @@
 ---
 title: "Test_slides"
 format: html
+include-before-body: sidebar-toggle.html
 ---
 
 ## Test presentation
