@@ -2,15 +2,67 @@
 
 document.addEventListener("DOMContentLoaded", function() {
 
-    // Hide sidebar
+    let sidebar = document.querySelector("aside.sidebar");
 
-    document.querySelector("aside.sidebar").style.display = "none";
+    let main = document.querySelector("main");
+
+ 
+
+    // Hide sidebar initially
+
+    sidebar.style.display = "none";
+
+    main.style.marginLeft = "0";
+
+ 
+
+    // Create toggle button
+
+    let toggleBtn = document.createElement("button");
+
+    toggleBtn.innerText = "☰ Toggle Sidebar";
+
+    toggleBtn.style.position = "fixed";
+
+    toggleBtn.style.top = "10px";
+
+    toggleBtn.style.left = "10px";
+
+    toggleBtn.style.zIndex = "1000";
+
+    toggleBtn.style.padding = "10px";
+
+    toggleBtn.style.background = "#007bff";
+
+    toggleBtn.style.color = "white";
+
+    toggleBtn.style.border = "none";
+
+    toggleBtn.style.cursor = "pointer";
 
    
 
-    // Expand main content area
+    document.body.appendChild(toggleBtn);
 
-    document.querySelector("main").style.marginLeft = "0";
+ 
+
+    toggleBtn.addEventListener("click", function() {
+
+        if (sidebar.style.display === "none") {
+
+            sidebar.style.display = "block";
+
+            main.style.marginLeft = "";
+
+        } else {
+
+            sidebar.style.display = "none";
+
+            main.style.marginLeft = "0";
+
+        }
+
+    });
 
 });
 
