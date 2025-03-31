@@ -1,0 +1,12 @@
+---
+title: "projects"
+format: html
+website:
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - text: "Introduction"
+        href: test.qmd
+---
+
