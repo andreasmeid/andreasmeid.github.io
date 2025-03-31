@@ -4,6 +4,6 @@ title: "About"
 
 Link to Andreas-D-Meid.netlify.app
 
-```{r results='hide'}
+```{r echo=F, results='hide'}
 1 + 1
 ```
