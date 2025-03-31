@@ -17,26 +17,6 @@
     ]
   },
   {
-    "objectID": "presentation/Test_slides.html",
-    "href": "presentation/Test_slides.html",
-    "title": "Test_slides",
-    "section": "",
-    "text": "#",
-    "crumbs": [
-      "Example presentation"
-    ]
-  },
-  {
-    "objectID": "presentation/Test_slides.html#test-presentation",
-    "href": "presentation/Test_slides.html#test-presentation",
-    "title": "Test_slides",
-    "section": "",
-    "text": "#",
-    "crumbs": [
-      "Example presentation"
-    ]
-  },
-  {
     "objectID": "presentation/Test/index.html#first-page",
     "href": "presentation/Test/index.html#first-page",
     "title": "Test",
@@ -49,6 +29,28 @@
     "title": "Test",
     "section": "Second page",
     "text": "Second page\ntest 4,5,6"
+  },
+  {
+    "objectID": "presentation/Test_slides.html",
+    "href": "presentation/Test_slides.html",
+    "title": "Test_slides",
+    "section": "",
+    "text": "#",
+    "crumbs": [
+      "Presentations",
+      "Example presentation"
+    ]
+  },
+  {
+    "objectID": "presentation/Test_slides.html#test-presentation",
+    "href": "presentation/Test_slides.html#test-presentation",
+    "title": "Test_slides",
+    "section": "",
+    "text": "#",
+    "crumbs": [
+      "Presentations",
+      "Example presentation"
+    ]
   },
   {
     "objectID": "index.html",
