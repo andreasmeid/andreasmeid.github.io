@@ -8,11 +8,18 @@ website:
       - href: index.qmd
         text: Home
       - href: about.qmd
-      - href: test.qmd 
-        text: Testseite
+      - href: projects.qmd 
+        text: Projects
       - href: https://andreas-d-meid.netlify.app/ 
         text: Academic Biography
-  #sidebar
+  sidebar:
+  - id: projects
+    title: "Projects Sidebar"
+    style: "docked"
+    background: light
+    contents:
+      - href: test.qmd 
+        text: Testseite
 
 format:
   html:

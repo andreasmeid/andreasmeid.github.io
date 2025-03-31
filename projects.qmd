@@ -1,6 +1,7 @@
 ---
 title: "projects"
 format: html
+sidebar: projects
 #website:
 #  sidebar:
 #    style: "docked"
