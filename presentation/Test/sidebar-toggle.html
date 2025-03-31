@@ -8,11 +8,15 @@ document.addEventListener("DOMContentLoaded", function() {
 
  
 
-    // Hide sidebar initially
+    // Hide sidebar initially when loading slides
 
-    sidebar.style.display = "none";
+    if (window.location.href.includes("slides.qmd")) {
 
-    main.style.marginLeft = "0";
+        sidebar.style.display = "none";
+
+        main.style.marginLeft = "0";
+
+    }
 
  
 
@@ -40,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     toggleBtn.style.cursor = "pointer";
 
-   
+ 
 
     document.body.appendChild(toggleBtn);
 
