@@ -1,16 +1,30 @@
 [
   {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "projects",
+    "section": "",
+    "text": "Projects …"
+  },
+  {
+    "objectID": "test.html",
+    "href": "test.html",
+    "title": "test",
+    "section": "",
+    "text": "Test 1,2,3"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Andreas Meid (github)",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
     "text": "Link to Andreas-D-Meid.netlify.app"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "andreasmeid.github.io",
-    "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
   }
 ]
