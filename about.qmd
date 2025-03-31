@@ -3,11 +3,10 @@ title: "About"
 format: html
 ---
 
-Link to Andreas-D-Meid.netlify.app
+For more information, please visit my [Academic Biography](Andreas-D-Meid.netlify.app) (external link).
 
 
-
-```{r echo=F}
+```{r echo=F, results='hide'}
 #, results='hide'
 1 + 1
 ```

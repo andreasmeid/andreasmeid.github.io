@@ -20,6 +20,8 @@ website:
     contents:
       - href: test.qmd 
         text: Testseite
+      - text: "Arrow Dplyr Talk"
+        href: "https://jthomasmock.github.io/arrow-dplyr/"
 
 format:
   html:

@@ -9,6 +9,6 @@ In addition to other channels, you can find more detailed reports on projects he
 I am currently involved in ...
 
 
-```{r}
+```{r echo=F, results='hide'}
 1 + 1
 ```
