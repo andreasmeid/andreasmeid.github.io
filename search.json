@@ -17,6 +17,27 @@
     ]
   },
   {
+    "objectID": "presentation/TranslationalResearch/index.html#first-page",
+    "href": "presentation/TranslationalResearch/index.html#first-page",
+    "title": "Test",
+    "section": "First page",
+    "text": "First page\ntest 1,2,3"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#second-page",
+    "href": "presentation/TranslationalResearch/index.html#second-page",
+    "title": "Test",
+    "section": "Second page",
+    "text": "Second page\ntest 4,5,6"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#third-page",
+    "href": "presentation/TranslationalResearch/index.html#third-page",
+    "title": "Test",
+    "section": "Third page",
+    "text": "Third page"
+  },
+  {
     "objectID": "presentation/Test/index.html#first-page",
     "href": "presentation/Test/index.html#first-page",
     "title": "Test",
@@ -31,26 +52,11 @@
     "text": "Second page\ntest 4,5,6"
   },
   {
-    "objectID": "presentation/Test_slides.html",
-    "href": "presentation/Test_slides.html",
-    "title": "Test_slides",
-    "section": "",
-    "text": "#",
-    "crumbs": [
-      "Presentations",
-      "Example presentation"
-    ]
-  },
-  {
-    "objectID": "presentation/Test_slides.html#test-presentation",
-    "href": "presentation/Test_slides.html#test-presentation",
-    "title": "Test_slides",
-    "section": "",
-    "text": "#",
-    "crumbs": [
-      "Presentations",
-      "Example presentation"
-    ]
+    "objectID": "presentation/Test/index.html#third-page",
+    "href": "presentation/Test/index.html#third-page",
+    "title": "Test",
+    "section": "Third page",
+    "text": "Third page"
   },
   {
     "objectID": "index.html",
