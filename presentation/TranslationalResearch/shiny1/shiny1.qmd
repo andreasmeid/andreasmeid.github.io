@@ -1,16 +1,16 @@
 ---
 title: "Old Faithful"
 format: html
-server: shiny
+#server: shiny
 ---
 
-```{r}
+```{r eval=F}
 sliderInput("bins", "Number of bins:", 
             min = 1, max = 50, value = 30)
 plotOutput("distPlot")
 ```
 
-```{r}
+```{r eval=F}
 #| context: server
 output$distPlot <- renderPlot({
   x <- faithful[, 2]  # Old Faithful Geyser data
