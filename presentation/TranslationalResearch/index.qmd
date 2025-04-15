@@ -85,13 +85,12 @@ By the end of this presentation, you’ll have a great understanding of ...
 • If you only remember one thing from what we’ve covered today, here’s what I’d like it to be... -->
 
 
-```{r setup, include=FALSE}
+```{r setup, include=FALSE, eval=F, echo=F}
 options(htmltools.dir.version = FALSE)
 
 #library(devtools)
     #install_local('I:/Bereich/Neuausrichtung/GAM/icons-master')
     #install_local('I:/Bereich/Neuausrichtung/GAM/xaringanExtra-master')
-library(tidyverse)
 library(ggplot2)
 library(patchwork)
 library(here)
