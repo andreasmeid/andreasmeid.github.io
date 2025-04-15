@@ -1,35 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://andreasmeid.github.io/projects/MAGIC-BULLET.html</loc>
+    <lastmod>2025-04-15T14:35:03.552Z</lastmod>
+  </url>
+  <url>
     <loc>https://andreasmeid.github.io/projects.html</loc>
-    <lastmod>2025-04-10T13:40:44.710Z</lastmod>
+    <lastmod>2025-04-15T14:35:03.552Z</lastmod>
   </url>
   <url>
     <loc>https://andreasmeid.github.io/test.html</loc>
-    <lastmod>2025-04-10T13:40:44.711Z</lastmod>
+    <lastmod>2025-04-15T14:35:03.553Z</lastmod>
   </url>
   <url>
     <loc>https://andreasmeid.github.io/presentation/overview.html</loc>
-    <lastmod>2025-04-10T13:40:44.710Z</lastmod>
+    <lastmod>2025-04-15T14:35:03.552Z</lastmod>
+  </url>
+  <url>
+    <loc>https://andreasmeid.github.io/presentation/TranslationalResearch/interactive.html</loc>
+    <lastmod>2025-04-15T14:35:03.552Z</lastmod>
   </url>
   <url>
     <loc>https://andreasmeid.github.io/presentation/TranslationalResearch/index.html</loc>
-    <lastmod>2025-04-10T13:40:44.710Z</lastmod>
+    <lastmod>2025-04-15T14:35:03.552Z</lastmod>
   </url>
   <url>
     <loc>https://andreasmeid.github.io/presentation/Test/index.html</loc>
-    <lastmod>2025-04-10T13:40:44.710Z</lastmod>
+    <lastmod>2025-04-15T14:35:03.488Z</lastmod>
+  </url>
+  <url>
+    <loc>https://andreasmeid.github.io/presentation/Translational_slides.html</loc>
+    <lastmod>2025-04-15T14:35:03.552Z</lastmod>
+  </url>
+  <url>
+    <loc>https://andreasmeid.github.io/presentation/TranslationalResearch/shiny1/shiny1.html</loc>
+    <lastmod>2025-04-15T14:35:03.552Z</lastmod>
   </url>
   <url>
     <loc>https://andreasmeid.github.io/presentation/Test_slides.html</loc>
-    <lastmod>2025-04-10T13:40:44.710Z</lastmod>
+    <lastmod>2025-04-15T14:35:03.488Z</lastmod>
   </url>
   <url>
     <loc>https://andreasmeid.github.io/index.html</loc>
-    <lastmod>2025-04-10T13:40:44.710Z</lastmod>
+    <lastmod>2025-04-15T14:35:03.488Z</lastmod>
   </url>
   <url>
     <loc>https://andreasmeid.github.io/about.html</loc>
-    <lastmod>2025-04-10T13:40:44.709Z</lastmod>
+    <lastmod>2025-04-15T14:35:03.479Z</lastmod>
+  </url>
+  <url>
+    <loc>https://andreasmeid.github.io/projects/TREND-REVIVAL.html</loc>
+    <lastmod>2025-04-15T14:35:03.552Z</lastmod>
   </url>
 </urlset>

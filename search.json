@@ -1,41 +1,170 @@
 [
   {
+    "objectID": "projects/MAGIC-BULLET.html",
+    "href": "projects/MAGIC-BULLET.html",
+    "title": "MAGIC-BULLET",
+    "section": "",
+    "text": "hei_INNOVATION announced that PD Dr. Andreas D. Meid started to work on MAGIC-BULLET on December 1, 2023. The pharmacist and biometrician was successful with the project for Heidelberg University at the Sanofi iDEA-iTECH Awards 2023. At the interface of pharmacometrics, he is working at the Heidelberg Medical Faculty on the development of a software platform for predicting the effectiveness of antibody-drug conjugates in cancer over several phases of clinical drug development.\nPredicting therapeutic success on the basis of preclinical experiments is of great importance for drug development. This also applies to promising antibody drug conjugates (ADCs) in oncology. However, there have also been been numerous failures in clinical development. With the platform models being developed in the MAGIC-BULLET project, scientists can make well-founded decisions at important translation steps. For example, the model-based prediction of therapeutic success can support the development of lead structures or the planning of clinical trials and thus lead to shorter, more successful and more cost-effective development.\nDr. Andreas Meid explains: “If we assume that clinical progress can only be achieved through the interaction of basic research and clinical research, then all those aspects should be supported by mathematical-statistical models throughout these translational steps. The Sanofi funding initially makes it possible to research the underlying mechanisms from many already published experiments, from cell culture to clinical studies, and to integrate them into models. These models can then be tested and validated with available original patient data before model-informed decisions are derived from them. The Sanofi funding also offers the opportunity to pilot this with current data from drug development. In the long term, the platform models developed could therefore help to make future drug developments more successful.”\nIn a first step, the project will process the numerous models published to date and operationalize them in such a way that the behaviour of an ADC can be described and predicted in various studies. This platform model will then be further developed using ADCs in breast cancer therapy and validated with original data from clinical studies. Ultimately, the knowledge gained will be incorporated into a generically usable development platform and a guideline for future study planning.",
+    "crumbs": [
+      "MAGIC-BULLET"
+    ]
+  },
+  {
+    "objectID": "projects/MAGIC-BULLET.html#press-release-from-hei_innovation",
+    "href": "projects/MAGIC-BULLET.html#press-release-from-hei_innovation",
+    "title": "MAGIC-BULLET",
+    "section": "",
+    "text": "hei_INNOVATION announced that PD Dr. Andreas D. Meid started to work on MAGIC-BULLET on December 1, 2023. The pharmacist and biometrician was successful with the project for Heidelberg University at the Sanofi iDEA-iTECH Awards 2023. At the interface of pharmacometrics, he is working at the Heidelberg Medical Faculty on the development of a software platform for predicting the effectiveness of antibody-drug conjugates in cancer over several phases of clinical drug development.\nPredicting therapeutic success on the basis of preclinical experiments is of great importance for drug development. This also applies to promising antibody drug conjugates (ADCs) in oncology. However, there have also been been numerous failures in clinical development. With the platform models being developed in the MAGIC-BULLET project, scientists can make well-founded decisions at important translation steps. For example, the model-based prediction of therapeutic success can support the development of lead structures or the planning of clinical trials and thus lead to shorter, more successful and more cost-effective development.\nDr. Andreas Meid explains: “If we assume that clinical progress can only be achieved through the interaction of basic research and clinical research, then all those aspects should be supported by mathematical-statistical models throughout these translational steps. The Sanofi funding initially makes it possible to research the underlying mechanisms from many already published experiments, from cell culture to clinical studies, and to integrate them into models. These models can then be tested and validated with available original patient data before model-informed decisions are derived from them. The Sanofi funding also offers the opportunity to pilot this with current data from drug development. In the long term, the platform models developed could therefore help to make future drug developments more successful.”\nIn a first step, the project will process the numerous models published to date and operationalize them in such a way that the behaviour of an ADC can be described and predicted in various studies. This platform model will then be further developed using ADCs in breast cancer therapy and validated with original data from clinical studies. Ultimately, the knowledge gained will be incorporated into a generically usable development platform and a guideline for future study planning.",
+    "crumbs": [
+      "MAGIC-BULLET"
+    ]
+  },
+  {
     "objectID": "projects.html",
     "href": "projects.html",
-    "title": "projects",
+    "title": "Projects",
     "section": "",
-    "text": "Projects …"
+    "text": "I am currently in charge of two major projects:\n\n2024 EU Sanofi iDEA-TECH Awards in the section Real-World Evidence development about Generalizability & Transportability methods and multi-state modeling in multiple myeloma\n2023 EU Sanofi iDEA-TECH Awards in the section Drug Metabolism & Pharmacokinetics about a translational modeling platform for ADCs"
   },
   {
     "objectID": "test.html",
     "href": "test.html",
     "title": "test",
     "section": "",
-    "text": "Test 1,2,3",
-    "crumbs": [
-      "Testseite"
-    ]
+    "text": "Test 1,2,3"
   },
   {
-    "objectID": "presentation/TranslationalResearch/index.html#first-page",
-    "href": "presentation/TranslationalResearch/index.html#first-page",
-    "title": "Test",
-    "section": "First page",
-    "text": "First page\ntest 1,2,3"
+    "objectID": "presentation/TranslationalResearch/interactive.html#step-1-boxes-only",
+    "href": "presentation/TranslationalResearch/interactive.html#step-1-boxes-only",
+    "title": "Interactive Diagram",
+    "section": "Step 1: Boxes Only",
+    "text": "Step 1: Boxes Only\n\n\n\nClinical\n\n\nPreclinical\n\n\nReal-world"
   },
   {
-    "objectID": "presentation/TranslationalResearch/index.html#second-page",
-    "href": "presentation/TranslationalResearch/index.html#second-page",
-    "title": "Test",
-    "section": "Second page",
-    "text": "Second page\ntest 4,5,6"
+    "objectID": "presentation/TranslationalResearch/interactive.html#step-2-arrows-only-inline-svg",
+    "href": "presentation/TranslationalResearch/interactive.html#step-2-arrows-only-inline-svg",
+    "title": "Interactive Diagram",
+    "section": "Step 2: Arrows Only (Inline SVG)",
+    "text": "Step 2: Arrows Only (Inline SVG)\n\n     \n&lt;line x1=\"100\" y1=\"100\" x2=\"500\" y2=\"100\"\n      stroke=\"black\" stroke-width=\"4\"\n      marker-end=\"url(#arrowhead)\" /&gt;\n\n&lt;path d=\"M100,200 C200,100 400,300 500,200\"\n      stroke=\"black\" stroke-width=\"4\" fill=\"none\"\n      marker-end=\"url(#arrowhead)\" /&gt;"
   },
   {
-    "objectID": "presentation/TranslationalResearch/index.html#third-page",
-    "href": "presentation/TranslationalResearch/index.html#third-page",
-    "title": "Test",
-    "section": "Third page",
-    "text": "Third page"
+    "objectID": "presentation/TranslationalResearch/interactive.html#step-2-arrows-only",
+    "href": "presentation/TranslationalResearch/interactive.html#step-2-arrows-only",
+    "title": "Interactive Diagram",
+    "section": "Step 2: Arrows Only",
+    "text": "Step 2: Arrows Only"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#outline",
+    "href": "presentation/TranslationalResearch/index.html#outline",
+    "title": "andreasmeid.github.io",
+    "section": "Outline",
+    "text": "Outline\n\n\nIntroduction\nCase studies\n\nPreclinical-to-clinical: QSP modeling\nClinical-to-Real-world: G&T prediction\nBedside-to-bench: Reverse translation\n\nRecap and next steps …\nQ&A\nDiscussion"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#translational-research-1",
+    "href": "presentation/TranslationalResearch/index.html#translational-research-1",
+    "title": "andreasmeid.github.io",
+    "section": "Translational research",
+    "text": "Translational research"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#definition",
+    "href": "presentation/TranslationalResearch/index.html#definition",
+    "title": "andreasmeid.github.io",
+    "section": "Definition",
+    "text": "Definition\n\nedibble stands for experimental design table (or tibble)\n\neins\nzwei\ndrei"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#step-1-boxes-only",
+    "href": "presentation/TranslationalResearch/index.html#step-1-boxes-only",
+    "title": "andreasmeid.github.io",
+    "section": "Step 1: Boxes Only",
+    "text": "Step 1: Boxes Only\n\n\n\nClinical\n\n\nPreclinical\n\n\nReal-world"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#step-2-arrows-only-debug-mode",
+    "href": "presentation/TranslationalResearch/index.html#step-2-arrows-only-debug-mode",
+    "title": "andreasmeid.github.io",
+    "section": "Step 2: Arrows Only (Debug Mode)",
+    "text": "Step 2: Arrows Only (Debug Mode)"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#together",
+    "href": "presentation/TranslationalResearch/index.html#together",
+    "title": "andreasmeid.github.io",
+    "section": "Together",
+    "text": "Together\n\n\n      \n&lt;!-- Preclinical -&gt; Clinical --&gt;\n&lt;path d=\"M140,300 C140,200 300,150 300,80\" \n      marker-end=\"url(#arrowhead)\" class=\"arrow-path\"&gt;\n  &lt;title&gt;Preclinical to Clinical&lt;/title&gt;\n&lt;/path&gt;\n\n&lt;!-- Real-world -&gt; Clinical --&gt;\n&lt;path d=\"M460,300 C460,200 300,150 300,80\" \n      marker-end=\"url(#arrowhead)\" class=\"arrow-path\"&gt;\n  &lt;title&gt;Real-world to Clinical&lt;/title&gt;\n&lt;/path&gt;\n\n&lt;!-- Clinical -&gt; Real-world --&gt;\n&lt;path d=\"M300,80 C320,160 400,230 450,300\" \n      marker-end=\"url(#arrowhead)\" class=\"arrow-path\"&gt;\n  &lt;title&gt;Clinical to Real-world&lt;/title&gt;\n&lt;/path&gt;\n\n\n\nClinical\n\n\nPreclinical\n\n\nReal-world"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#q-s-p-the-scope-of-qsp",
+    "href": "presentation/TranslationalResearch/index.html#q-s-p-the-scope-of-qsp",
+    "title": "andreasmeid.github.io",
+    "section": "1: Q S P The scope of QSP",
+    "text": "1: Q S P The scope of QSP\n\n\nMeid AD et al."
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#q-s-p-translational-pipeline",
+    "href": "presentation/TranslationalResearch/index.html#q-s-p-translational-pipeline",
+    "title": "andreasmeid.github.io",
+    "section": "1: Q S P Translational pipeline",
+    "text": "1: Q S P Translational pipeline\n\nCellular levelIn vivo levelClinical level\n\n\n Antibody trafficking Payload distribution"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#q-s-p-translational-modeling-app",
+    "href": "presentation/TranslationalResearch/index.html#q-s-p-translational-modeling-app",
+    "title": "andreasmeid.github.io",
+    "section": "1: Q S P Translational modeling app",
+    "text": "1: Q S P Translational modeling app"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#gt-trial-to-real-world-translation",
+    "href": "presentation/TranslationalResearch/index.html#gt-trial-to-real-world-translation",
+    "title": "andreasmeid.github.io",
+    "section": "2: G&T  Trial-to-real-world  translation",
+    "text": "2: G&T  Trial-to-real-world  translation"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#gt-generalizability-transportability",
+    "href": "presentation/TranslationalResearch/index.html#gt-generalizability-transportability",
+    "title": "andreasmeid.github.io",
+    "section": "2: G&T Generalizability & Transportability",
+    "text": "2: G&T Generalizability & Transportability\n\n\nSubmitted manuscript"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#gt-expected-results",
+    "href": "presentation/TranslationalResearch/index.html#gt-expected-results",
+    "title": "andreasmeid.github.io",
+    "section": "2: G&T Expected results",
+    "text": "2: G&T Expected results\n\n\nLeiva IA & Meid AD."
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#gt-t-dm1-use-case",
+    "href": "presentation/TranslationalResearch/index.html#gt-t-dm1-use-case",
+    "title": "andreasmeid.github.io",
+    "section": "2: G&T T-DM1 use-case",
+    "text": "2: G&T T-DM1 use-case\n\n\nObserved survival\n\n\n\n\nPrediction"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#gt-gt-modeling-app",
+    "href": "presentation/TranslationalResearch/index.html#gt-gt-modeling-app",
+    "title": "andreasmeid.github.io",
+    "section": "2: G&T G&T modeling app",
+    "text": "2: G&T G&T modeling app"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#rt-reverse-translation",
+    "href": "presentation/TranslationalResearch/index.html#rt-reverse-translation",
+    "title": "andreasmeid.github.io",
+    "section": "3: RT  Reverse  translation",
+    "text": "3: RT  Reverse  translation"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#rt-tamoxifen-trials",
+    "href": "presentation/TranslationalResearch/index.html#rt-tamoxifen-trials",
+    "title": "andreasmeid.github.io",
+    "section": "3: RT Tamoxifen trials",
+    "text": "3: RT Tamoxifen trials\ncontent"
   },
   {
     "objectID": "presentation/Test/index.html#first-page",
@@ -59,11 +188,18 @@
     "text": "Third page"
   },
   {
+    "objectID": "presentation/TranslationalResearch/shiny1/shiny1.html",
+    "href": "presentation/TranslationalResearch/shiny1/shiny1.html",
+    "title": "Old Faithful",
+    "section": "",
+    "text": "sliderInput(\"bins\", \"Number of bins:\", \n            min = 1, max = 50, value = 30)\nplotOutput(\"distPlot\")\n\n\noutput$distPlot &lt;- renderPlot({\n  x &lt;- faithful[, 2]  # Old Faithful Geyser data\n  bins &lt;- seq(min(x), max(x), length.out = input$bins + 1)\n  hist(x, breaks = bins, col = 'darkgray', border = 'white')\n})"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Andreas Meid (github)",
     "section": "",
-    "text": "This is the personal website of Andreas D. Meid.\nIn addition to other channels, you can find more detailed reports on projects here.\nI am currently involved in …"
+    "text": "This is the overview page of Andreas D. Meid’s personal repository.\n\n\n\nportrait\n\n\nIt was created as a transition from the profile page, which focused on the academic CV. It is intended to be more universal, more open and also serves to structure one’s own projects. It is not intended to replace other channels, but to provide a detailed description in some parts.\nMore information will surely follow soon …"
   },
   {
     "objectID": "about.html",
@@ -71,5 +207,25 @@
     "title": "About",
     "section": "",
     "text": "For more information, please visit my Academic Biography (external link)."
+  },
+  {
+    "objectID": "projects/TREND-REVIVAL.html",
+    "href": "projects/TREND-REVIVAL.html",
+    "title": "TREND-REVIVAL",
+    "section": "",
+    "text": "The Sanofi iDEA-TECH Award is a significant milestone for our team in the field of pharmacoepidemiology! Ignacio Leiva-Escobar and Andreas Meid have been awarded the prestigious Sanofi iDEA-TECH Award Europe for their TREND-REVIVAL project. They are supported by Camilo Scherkl, who is involved in the project with analyses.\nThe one-year project has a clear objective: to link clinical study results with real-world data in order to improve the understanding of disease progression after the market approval of new therapeutics. This will make an important contribution to well-founded decisions and patient-centered treatments.",
+    "crumbs": [
+      "TREND-REVIVAL"
+    ]
+  },
+  {
+    "objectID": "projects/TREND-REVIVAL.html#recent-social-media-post",
+    "href": "projects/TREND-REVIVAL.html#recent-social-media-post",
+    "title": "TREND-REVIVAL",
+    "section": "",
+    "text": "The Sanofi iDEA-TECH Award is a significant milestone for our team in the field of pharmacoepidemiology! Ignacio Leiva-Escobar and Andreas Meid have been awarded the prestigious Sanofi iDEA-TECH Award Europe for their TREND-REVIVAL project. They are supported by Camilo Scherkl, who is involved in the project with analyses.\nThe one-year project has a clear objective: to link clinical study results with real-world data in order to improve the understanding of disease progression after the market approval of new therapeutics. This will make an important contribution to well-founded decisions and patient-centered treatments.",
+    "crumbs": [
+      "TREND-REVIVAL"
+    ]
   }
 ]
