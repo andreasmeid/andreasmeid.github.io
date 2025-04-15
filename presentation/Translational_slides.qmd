@@ -1,11 +1,10 @@
 ---
-title: "Test_slides"
+title: "Translational Research"
 format: html
 include-before-body: sidebar-toggle.html
 ---
 
-## Test presentation
-
+## Preview presentation
 
 <iframe src="/presentation/TranslationalResearch/index.html" width="100%" height="600px" style="border:none;"
   allowfullscreen mozallowfullscreen webkitallowfullscreen ></iframe> 

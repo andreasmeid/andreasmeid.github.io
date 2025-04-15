@@ -2,12 +2,13 @@
 title: "Andreas Meid (github)"
 ---
 
-This is the personal website of Andreas D. Meid.
+This is the overview page of Andreas D. Meid's personal repository. 
 
-In addition to other channels, you can find more detailed reports on projects here. 
+![portrait](img/portrait_original.PNG)
 
-I am currently involved in ...
+It was created as a transition from the [profile page](https://https://andreas-d-meid.netlify.app/), which focused on the academic CV. It is intended to be more universal, more open and also serves to structure one's own projects. It is not intended to replace other channels, but to provide a detailed description in some parts.
 
+More information will surely follow soon ...
 
 ```{r echo=F, results='hide'}
 1 + 1

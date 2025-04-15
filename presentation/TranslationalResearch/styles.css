@@ -1,0 +1,131 @@
+/* styles.css */
+.reveal .title-slide .header-logos {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  z-index: 2;
+}
+
+/* Spacing for title content */
+.reveal .title-slide .title-slide-content {
+  margin-top: 100px;
+}
+
+.reveal .title-slide h1, 
+.reveal .title-slide h2,
+.reveal .title-slide h3,
+.reveal .title-slide h4,
+.reveal .title-slide p {
+  text-transform: none !important;
+  font-family: inherit !important;
+  --text-color: #555;
+}
+
+.reveal .slides section.title-slide {
+  padding-top: 0 !important;
+  margin-top: -50px !important;  /* Adjust negative value as needed */
+}
+
+.body-yellow > h2 {
+  font-size: 42px;
+  text-transform: uppercase;
+  padding-left: 50px;
+}
+.body-yellow {
+  background-image: NULL;
+  background-size: contain;
+}
+
+
+/***
+title-slide .author:after {
+  content: url('img/portrait.PNG') ;
+  display: block; 
+}
+***/
+
+
+/***
+.title-slide {
+  background-image: url('img/portrait.PNG');
+  background-position: top;
+  background-size: 100%;
+  background-color: #3b4245;
+}
+***/
+
+
+.title-slide h1 {
+  font-family: 'Prata', serif;
+  color: #FFFFFF;
+  font-size: 3em;
+  padding-top: 2em;
+  line-height: 1em;
+  padding-bottom: .1em;
+  word-wrap: break-word;
+}
+
+.title-slide h2 {
+  font-family: 'Muli', sans-serif;
+  font-weight: 700;
+  font-size: 1.6em;
+  color: #FFFFFF;
+  text-shadow: none;
+  padding-top: .1em;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  text-transform: none;
+}
+
+.title-slide h3 {
+  font-family: 'Muli', sans-serif;
+  font-weight: 400;
+  font-size: 1.6em;
+  color: #FFFFFF;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  line-height: 1.6em;
+  text-transform: none;
+}
+
+.title-slide h4 {
+  font-family: 'Muli', sans-serif;
+  font-weight: 400;
+  font-size: 1.4em;
+  color: #FFFFFF;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.title-slide a {
+  color: #fff;
+}
+
+
+.story {
+  background-color: black;
+  color: white;
+  font-size: 0.75em;
+  padding: 10px;
+  font-family: 'Roboto Condensed', sans-serif;
+  vertical-align: middle;
+}
+
+.info-box {
+  margin-top: 10px;
+  margin-right: 10px;
+  border-left: 10px solid #006DAE;
+  padding-left: 20px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #e8f4f8;
+}
+
+.fa-ul {
+    list-style-type: none!important;
+    margin-left: var(--fa-li-margin, 2.5em)!important;
+    padding-left: 0!important;
+}

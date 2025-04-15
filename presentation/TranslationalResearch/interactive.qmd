@@ -1,0 +1,92 @@
+---
+title: "Interactive Diagram"
+format:
+  revealjs:
+    theme: simple
+---
+
+## Step 1: Boxes Only
+
+::: {=html}
+<div class="interactive-boxes">
+  <div class="box clinical">Clinical</div>
+  <div class="box preclinical">Preclinical</div>
+  <div class="box realworld">Real-world</div>
+</div>
+
+<style>
+.interactive-boxes {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  margin: auto;
+}
+
+.box {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4a80d6;
+  color: white;
+  border-radius: 8px;
+  position: absolute;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.box:hover {
+  background-color: #6daaff;
+}
+
+.clinical { top: 20px; left: 230px; }
+.preclinical { bottom: 40px; left: 80px; }
+.realworld { bottom: 40px; right: 80px; }
+</style>
+:::
+
+---
+
+
+## Step 2: Arrows Only (Inline SVG)
+
+::: {=html}
+
+  <svg viewBox="0 0 600 400" width="600" height="400" style="disply: block; margin: auto;">
+    <defs>
+      <marker id="arrowhead" markerWidth="10" markerHeight="7"
+              refX="0" refY="3.5" orient="auto">
+        <polygon points="0 0, 10 3.5, 0 7" fill="black" />
+      </marker>
+    </defs>
+
+    <line x1="100" y1="100" x2="500" y2="100"
+          stroke="black" stroke-width="4"
+          marker-end="url(#arrowhead)" />
+
+    <path d="M100,200 C200,100 400,300 500,200"
+          stroke="black" stroke-width="4" fill="none"
+          marker-end="url(#arrowhead)" />
+  </svg>
+
+:::
+
+---
+
+## Step 2: Arrows Only
+
+<div style="width: 600px; height: 400 px; margin: auto; background: #f5f5f5;">
+<svg viewBox="0 0 600 400" width="600" height="400" > <!--  style="display: block; margin: auto; background-color: #f5f5f5;" -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7"
+            refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="black" />
+    </marker>
+  </defs> 
+
+  <!-- Simple Line Test 
+  <line x1="100" y1="100" x2="500" y2="100" stroke="black" stroke-width="4" marker-end="url(#arrowhead)" /> -->
+ 
+  <!-- Curved Line Test 
+  <path d="M100,200 C200,100 400,300 500,200"
+        marker-end="url(#arrowhead)" stroke="black" stroke-width="4" fill="none" /> -->
+</svg>
+</div>

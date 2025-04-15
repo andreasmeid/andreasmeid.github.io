@@ -1,20 +1,473 @@
 ---
-title: "Test"
-author: "ADM"
-format: revealjs
-editor: visual
+#title: "Translation Research"
+#subtitle: "_some thoughts ... _"  
+#author: "PD Dr. Andreas D. Meid, MSc"
+#institute: "Clinical Pharmacology and Pharmacoepidemiology <br /> Heidelberg University Hospital" 
+#date: '2024-06-12'
+format:
+  revealjs:
+    theme: mytheme.scss # simple # theme: [simple, assets/monash.scss]
+    #include-after-body: logos.html
+    logo: img/footer.png
+    css: styles.css
+    footer: '[Home](https:/andreasmeid.github.io/)'
+    #title-slide-attributes:
+    #  data-background-color: "#FFFFFF"
+    #  class: "title-slide"
+    #include-after-body: logos.html
+    center-title-slide: false
+    slide-number: true
+    multiplex: true
+    show-slide-number: all
 ---
 
-## First page
+# Translational Research {background-color="#3b759e"}
 
-test 1,2,3
+<!--
+grab the audience’s attention at the beginning of a presentation
+I use this personal introduction all the time (page 84):
+• Name: My name is Andrea. I’m the Head of Ideas on Stage UK.
+• Role: I’m a presentation coach. We specialise in working with business owners, leaders and their teams who want to become more confident presenters.
+• Credibility: In the last thirteen years, we’ve worked with thousands of clients around the world, including companies like Microsoft, Lacoste, The World Bank and over 500 TEDx speakers.
+• Vision: Our mission is to stop great ideas from failing just because of the way they’re presented. Our vision is to help hundreds of thousands of business leaders share their message so they can grow their business, increase their influence and make a positive impact in the world.
+-->
 
-## Second page
+<h3> _A journey of personal experience _ </h3>
 
-test 4,5,6
+<hr>
 
-## Third page
+<h4> PD Dr. Andreas D. Meid, MSc </h4>
+
+<h4> 2022-06-03 </h4>
+<br>
+
+<!-- {background-color="#006dae"} {.title-slide} 
+<h4> `r fontawesome::fa("github", "black")` &nbsp; [https://andreasmeid.github.io/](https://andreasmeid.github.io/) </h4> -->
+
+![](img/portrait.png){.absolute top=450 left=650 width="300"}
+
+
+## Outline
+
+<!-- 10 minute segments -->
+
++ Introduction
+
++ Case studies
+  1. Preclinical-to-clinical: QSP modeling
+  2. Clinical-to-Real-world: G&T prediction
+  3. Bedside-to-bench: Reverse translation
+  
++ Recap and next steps ...
++ Q&A
++ Discussion
+<!--	+ My role in translational research projects
+	+ Your expectations on ...
+	+ ... -->
+
+<!-- The main body of your presentation should be your three key messages and the relevant supporting points. 
+In this presentation, I’m going to cover three main points: ...
+By the end of this presentation, you’ll have a great understanding of ...
+-->
+
+<!-- Make sure your presentations include the right mix of logic (facts and figures) and emotion (stories, examples and analogies). -->
+
+<!-- summarise the key takeaway: introduce your recap include: The message from my presentation is simple ... My point is this: ... The main point of my presentation is ... -->
+
+<!-- After your recap, it’s time to deliver a call to action. What do you want your audience to do after your presentation? What are the next steps -->
+
+<!-- A much better approach is to include the Q&A before your conclusion -->
+
+<!--Here are some suggested phrases you can use to approach your conclusion:
+• If there’s one thing I’d like you to remember from this presentation, it’s this...
+• If there’s something to take away from this presentation, it’s this ...
+• What I want you to remember is that ...
+• If you only remember one thing from what we’ve covered today, here’s what I’d like it to be... -->
+
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+
+#library(devtools)
+    #install_local('I:/Bereich/Neuausrichtung/GAM/icons-master')
+    #install_local('I:/Bereich/Neuausrichtung/GAM/xaringanExtra-master')
+library(tidyverse)
+library(ggplot2)
+library(patchwork)
+library(here)
+library(emmeans)
+library(gganimate)
+if(!require(fmsb)) {install.packages("fmsb"); library(fmsb, quietly = TRUE)}
+
+set.seed(1) #for reproducibility
+
+every_nth <- function(x, nth, empty = TRUE, inverse = FALSE) {
+  if (!inverse) {
+    if(empty) {
+      x[1:nth == 1] <- ""
+      x
+    } else {
+      x[1:nth != 1]
+    }
+  } else {
+    if(empty) {
+      x[1:nth != 1] <- ""
+      x
+    } else {
+      x[1:nth == 1]
+    }
+  }
+}
+
+```
+
+
+
+
+---
+
+## Translational research {background="#43464B" background-image="img/DrugSymposium_Background.png"}
+
+
+<!-- ![:scale 65%](img/Population.png) -->
+
+
+---
+
+## Definition
+
+::: info-box
+
+`edibble` stands for **e**xperimental **d**esign table (or `t`**`ibble`**)  
+
++ eins
++ zwei
++ drei
+
+:::
+<!--
+---
+# Context, Problem, Solution
+
+Figure with states, transitions, models as solutions
+
+
+Context: In this presentation, I’m going to talk about ...
+Problem: We all know that ...
+Solution: The good news is that ...
+
+-->
+
+<!-- Then tell them what they need to do if they want to be successful: Thanks for having me here today to talk about how ... you want to be ...  
+ggf. 
+A surprising fact or a shocking statistic
+A relevant quotation
+A thought-provoking question
+A story, metaphor or analogy
+-->
+
+---
+
+## Step 1: Boxes Only
+
+::: {=html}
+<div class="interactive-boxes">
+  <div class="box clinical">Clinical</div>
+  <div class="box preclinical">Preclinical</div>
+  <div class="box realworld">Real-world</div>
+</div>
+
+<style>
+.interactive-boxes {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  margin: auto;
+}
+
+.box {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4a80d6;
+  color: white;
+  border-radius: 8px;
+  position: absolute;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.box:hover {
+  background-color: #6daaff;
+}
+
+.clinical { top: 20px; left: 230px; }
+.preclinical { bottom: 40px; left: 80px; }
+.realworld { bottom: 40px; right: 80px; }
+</style>
+:::
+
+---
+
+## Step 2: Arrows Only (Debug Mode)
+
+
+<svg viewBox="0 0 600 400" width="600" height="400" style="display: block; margin: auto; background-color: #f5f5f5;">
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7"
+            refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="black" />
+    </marker>
+  </defs>
+
+  <!-- Simple Line Test -->
+  <line x1="100" y1="100" x2="500" y2="100" stroke="black" stroke-width="4" marker-end="url(#arrowhead)" />
+
+  <!-- Curved Line Test -->
+  <path d="M100,200 C200,100 400,300 500,200"
+        marker-end="url(#arrowhead)" stroke="black" stroke-width="4" fill="none" />
+</svg>
+
+---
+
+## Together
+
+::: {=html}
+<div class="interactive-diagram">
+  <!-- SVG Arrow Layer -->
+  <svg class="arrow-layer" viewBox="0 0 600 400">
+    <defs>
+      <marker id="arrowhead" markerWidth="10" markerHeight="7"
+              refX="0" refY="3.5" orient="auto">
+        <polygon points="0 0, 10 3.5, 0 7" fill="#95a8d8" />
+      </marker>
+    </defs>
+
+    <!-- Preclinical -> Clinical -->
+    <path d="M140,300 C140,200 300,150 300,80" 
+          marker-end="url(#arrowhead)" class="arrow-path">
+      <title>Preclinical to Clinical</title>
+    </path>
+
+    <!-- Real-world -> Clinical -->
+    <path d="M460,300 C460,200 300,150 300,80" 
+          marker-end="url(#arrowhead)" class="arrow-path">
+      <title>Real-world to Clinical</title>
+    </path>
+
+    <!-- Clinical -> Real-world -->
+    <path d="M300,80 C320,160 400,230 450,300" 
+          marker-end="url(#arrowhead)" class="arrow-path">
+      <title>Clinical to Real-world</title>
+    </path>
+  </svg>
+
+  <!-- Boxes -->
+  <div class="box clinical">Clinical</div>
+  <div class="box preclinical">Preclinical</div>
+  <div class="box realworld">Real-world</div>
+</div>
+
+<style>
+.interactive-diagram {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  margin: auto;
+}
+
+.box {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4a80d6;
+  color: white;
+  border-radius: 8px;
+  position: absolute;
+  text-align: center;
+  transition: background-color 0.3s ease;
+  z-index: 10;
+}
+
+.box:hover {
+  background-color: #6daaff;
+}
+
+.clinical { top: 20px; left: 230px; }
+.preclinical { bottom: 40px; left: 80px; }
+.realworld { bottom: 40px; right: 80px; }
+
+.arrow-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 600px;
+  height: 400px;
+  z-index: 1;
+}
+
+.arrow-path {
+  fill: none;
+  stroke: #95a8d8;
+  stroke-width: 4;
+  transition: stroke 0.3s ease;
+}
+
+.arrow-path:hover {
+  stroke: #ff8c42;
+}
+</style>
+:::
+
+---
+## [1: Q S P ]{.story} <br /> Preclinical-to-clinical translation {background="#43464B" background-image="img/background04.png"}
+
+
+---
+
+## [1: Q S P ]{.story} The scope of QSP
+
+![](img/FigS1.png)
+
+::: footer
+Meid AD et al. 
+:::
+
+---
+
+## [1: Q S P ]{.story} Translational pipeline
+
+::: panel-tabset
+### Cellular level
+
+<select id="plot-selector-3" style="margin-top: 20px;">
+  <option value="plot6" selected>Antibody trafficking</option>
+  <option value="plot7">Payload distribution</option>
+</select>
+<div id="plot-container-3">
+  <div id="plot6" class="plot">
+  
+  
+![](img/TDM1_cellular.png) 
+
+  </div>
+  <div id="plot7" class="plot" style="display: none;">
+ 
+![](img/TDM1_cellular2.png) 
+ 
+  </div>
+  
+</div>
+<script>
+document.getElementById("plot-selector-3").addEventListener("change", function() {
+  var selectedPlot = this.value;
+  var plots = document.querySelectorAll("#plot-container-3 .plot");
+  plots.forEach(function(plot) {
+    plot.style.display = "none";
+  });
+  document.getElementById(selectedPlot).style.display = "block";
+});
+
+// Ensure the correct plot is displayed on load for Tab 2
+window.onload = function() {
+  var selectedPlot = document.getElementById("plot-selector-3").value;
+  document.getElementById(selectedPlot).style.display = "block";
+};
+</script>
+
+
+### In vivo level
+
+![](img/TDM1_invivo.png) 
+
+### Clinical level
+
+![](img/TDM1_clinical.png) 
+
+
+:::
+
+---
+
+## [1: Q S P ]{.story} Translational modeling app
 
 <iframe src="https://magic-bullet.shinyapps.io/JPharmacokinetPharmacodyn" width="100%" height="600px" style="border:none;" allowfullscreen mozallowfullscreen webkitallowfullscreen>
 
 </iframe>
+
+---
+
+### [1: Q S P ]{.story} Clinical trial simulation
+
+![](img/CTS.png)
+
+
+---
+
+## [2: G&T ]{.story} <br /> Trial-to-real-world <br /> translation {background="#43464B" background-image="img/background02.png"}
+
+
+---
+
+## [2: G&T ]{.story} Generalizability & Transportability
+
+![](img/GandT.png)
+
+::: footer
+Submitted manuscript
+:::
+
+---
+
+## [2: G&T ]{.story} Expected results
+
+![](img/simulation.png)
+
+::: footer 
+Leiva IA & Meid AD. 
+:::
+
+---
+
+## [2: G&T ]{.story} T-DM1 use-case
+
+
+::: columns
+::: {.column width="66%"}
+
+#### Observed survival
+ ![](img/TDM1_OS.png) 
+
+:::
+
+::: {.column width="1%"}
+
+:::
+
+::: {.column width="33%"}
+
+#### Prediction
+ ![](img/TDM1_OS_predicted.png) 
+:::
+:::
+---
+
+## [2: G&T ]{.story} G&T modeling app
+
+<iframe src="https://magic-bullet.shinyapps.io/TREND-REVIVAL" width="100%" height="600px" style="border:none;" allowfullscreen mozallowfullscreen webkitallowfullscreen>
+
+</iframe>
+
+
+---
+
+## [3: RT ]{.story} <br /> Reverse <br /> translation {background="#43464B" background-image="img/background02.png"}
+
+
+---
+
+## [3: RT ]{.story} Tamoxifen trials
+
+content
+
+---
+
+

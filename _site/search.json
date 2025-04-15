@@ -37,8 +37,232 @@
   {
     "objectID": "presentation/TranslationalResearch/index.html#third-page",
     "href": "presentation/TranslationalResearch/index.html#third-page",
-    "title": "Test",
+    "title": "andreasmeid.github.io",
     "section": "Third page",
-    "text": "Third page"
+    "text": "Third page\n\n\n\n\n\n\nHome"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#step-1-boxes-only",
+    "href": "presentation/TranslationalResearch/index.html#step-1-boxes-only",
+    "title": "andreasmeid.github.io",
+    "section": "Step 1: Boxes Only",
+    "text": "Step 1: Boxes Only\n\n\n\nClinical\n\n\nPreclinical\n\n\nReal-world"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#step-2-arrows-only-debug-mode",
+    "href": "presentation/TranslationalResearch/index.html#step-2-arrows-only-debug-mode",
+    "title": "andreasmeid.github.io",
+    "section": "Step 2: Arrows Only (Debug Mode)",
+    "text": "Step 2: Arrows Only (Debug Mode)"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#together",
+    "href": "presentation/TranslationalResearch/index.html#together",
+    "title": "andreasmeid.github.io",
+    "section": "Together",
+    "text": "Together\n\n\n      \n&lt;!-- Preclinical -&gt; Clinical --&gt;\n&lt;path d=\"M140,300 C140,200 300,150 300,80\" \n      marker-end=\"url(#arrowhead)\" class=\"arrow-path\"&gt;\n  &lt;title&gt;Preclinical to Clinical&lt;/title&gt;\n&lt;/path&gt;\n\n&lt;!-- Real-world -&gt; Clinical --&gt;\n&lt;path d=\"M460,300 C460,200 300,150 300,80\" \n      marker-end=\"url(#arrowhead)\" class=\"arrow-path\"&gt;\n  &lt;title&gt;Real-world to Clinical&lt;/title&gt;\n&lt;/path&gt;\n\n&lt;!-- Clinical -&gt; Real-world --&gt;\n&lt;path d=\"M300,80 C320,160 400,230 450,300\" \n      marker-end=\"url(#arrowhead)\" class=\"arrow-path\"&gt;\n  &lt;title&gt;Clinical to Real-world&lt;/title&gt;\n&lt;/path&gt;\n\n\n\nClinical\n\n\nPreclinical\n\n\nReal-world"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/interactive.html#step-1-boxes-only",
+    "href": "presentation/TranslationalResearch/interactive.html#step-1-boxes-only",
+    "title": "Interactive Diagram",
+    "section": "Step 1: Boxes Only",
+    "text": "Step 1: Boxes Only\n\n\n\nClinical\n\n\nPreclinical\n\n\nReal-world"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/interactive.html#step-2-arrows-only",
+    "href": "presentation/TranslationalResearch/interactive.html#step-2-arrows-only",
+    "title": "Interactive Diagram",
+    "section": "Step 2: Arrows Only",
+    "text": "Step 2: Arrows Only"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/interactive.html#step-2-arrows-only-inline-svg",
+    "href": "presentation/TranslationalResearch/interactive.html#step-2-arrows-only-inline-svg",
+    "title": "Interactive Diagram",
+    "section": "Step 2: Arrows Only (Inline SVG)",
+    "text": "Step 2: Arrows Only (Inline SVG)\n\n     \n&lt;line x1=\"100\" y1=\"100\" x2=\"500\" y2=\"100\"\n      stroke=\"black\" stroke-width=\"4\"\n      marker-end=\"url(#arrowhead)\" /&gt;\n\n&lt;path d=\"M100,200 C200,100 400,300 500,200\"\n      stroke=\"black\" stroke-width=\"4\" fill=\"none\"\n      marker-end=\"url(#arrowhead)\" /&gt;"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#column-layout",
+    "href": "presentation/TranslationalResearch/index.html#column-layout",
+    "title": "andreasmeid.github.io",
+    "section": "Column Layout",
+    "text": "Column Layout\nArrange content into columns of varying widths:\n\n\nMotor Trend Car Road Tests\nThe data was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles.\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\nwt\n\n\n\n\nMazda RX4\n21.0\n6\n160\n110\n2.620\n\n\nMazda RX4 Wag\n21.0\n6\n160\n110\n2.875\n\n\nDatsun 710\n22.8\n4\n108\n93\n2.320\n\n\nHornet 4 Drive\n21.4\n6\n258\n110\n3.215\n\n\nHornet Sportabout\n18.7\n8\n360\n175\n3.440\n\n\nValiant\n18.1\n6\n225\n105\n3.460\n\n\n\n\n\n\n\nSubmitted manuscript"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#outline",
+    "href": "presentation/TranslationalResearch/index.html#outline",
+    "title": "andreasmeid.github.io",
+    "section": "Outline",
+    "text": "Outline\n\n\nIntroduction\nCase studies\n\nPreclinical-to-clinical: QSP modeling\nClinical-to-Real-world: G&T prediction\nBedside-to-bench: Reverse translation\n\nRecap and next steps …\nQ&A\nDiscussion"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#subtitle",
+    "href": "presentation/TranslationalResearch/index.html#subtitle",
+    "title": "Translation Research",
+    "section": "Subtitle",
+    "text": "Subtitle\nYour name\nInstitution"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#storyline",
+    "href": "presentation/TranslationalResearch/index.html#storyline",
+    "title": "andreasmeid.github.io",
+    "section": "Storyline",
+    "text": "Storyline\nT-DM1\n\nShow scope of QSP -&gt; Supp Fig S1\nShow T-DM1 as pipepline (only discuss first part)\nIntroduce the App (with results on PFS?!)\nPresent clinical trial simulation of dose-response (add actual ORR rate from T-Dxd)\n\nG&T / MSM\n\nVenn-Diagramm\nExample of G&T methodology applied to a simulated dataset. -&gt; Commentary Figure 1 (b&c)\nThree-panel Figure Figure 3 A / B, Figure 4\nPresent with the Shiny App\n\nReverse translation\n\nTamoxifen trials\n\n\n\n\n\n\n\n## Translational research {background=“#43464B” background-image=“img/background04.png”}\n\n\n\n\n\n\n\nedibble stands for experimental design table (or tibble)\n\neins\nzwei\ndrei"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#translational-research",
+    "href": "presentation/TranslationalResearch/index.html#translational-research",
+    "title": "andreasmeid.github.io",
+    "section": "Translational research",
+    "text": "Translational research"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#story-1-the-folklore-of-fervent-field-experiments",
+    "href": "presentation/TranslationalResearch/index.html#story-1-the-folklore-of-fervent-field-experiments",
+    "title": "Translation Research",
+    "section": "STORY 1 🌱 The folklore of fervent field experiments",
+    "text": "STORY 1 🌱 The folklore of fervent field experiments"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#test",
+    "href": "presentation/TranslationalResearch/index.html#test",
+    "title": "andreasmeid.github.io",
+    "section": "test",
+    "text": "test\n\nedibble stands for experimental design table (or tibble)\n\neins\nzwei\ndrei"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#qsp-the-folklore-of-fervent-field-experiments",
+    "href": "presentation/TranslationalResearch/index.html#qsp-the-folklore-of-fervent-field-experiments",
+    "title": "Translation Research",
+    "section": "1: QSP The folklore of fervent field experiments",
+    "text": "1: QSP The folklore of fervent field experiments"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#q-s-p-the-folklore-of-fervent-field-experiments",
+    "href": "presentation/TranslationalResearch/index.html#q-s-p-the-folklore-of-fervent-field-experiments",
+    "title": "andreasmeid.github.io",
+    "section": "1: Q S P The folklore of fervent field experiments",
+    "text": "1: Q S P The folklore of fervent field experiments"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#translational-research-1",
+    "href": "presentation/TranslationalResearch/index.html#translational-research-1",
+    "title": "andreasmeid.github.io",
+    "section": "Translational research",
+    "text": "Translational research"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#qsp",
+    "href": "presentation/TranslationalResearch/index.html#qsp",
+    "title": "andreasmeid.github.io",
+    "section": "1 QSP",
+    "text": "1 QSP"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#q-s-p-the-scope-of-qsp",
+    "href": "presentation/TranslationalResearch/index.html#q-s-p-the-scope-of-qsp",
+    "title": "andreasmeid.github.io",
+    "section": "1: Q S P The scope of QSP",
+    "text": "1: Q S P The scope of QSP\n\n\nMeid AD et al."
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#q-s-p-title",
+    "href": "presentation/TranslationalResearch/index.html#q-s-p-title",
+    "title": "andreasmeid.github.io",
+    "section": "1: Q S P Title",
+    "text": "1: Q S P Title\n\nPlotPLot2"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#q-s-p-translational-pipeline",
+    "href": "presentation/TranslationalResearch/index.html#q-s-p-translational-pipeline",
+    "title": "andreasmeid.github.io",
+    "section": "1: Q S P Translational pipeline",
+    "text": "1: Q S P Translational pipeline\n\nCellular levelIn vivo levelClinical level\n\n\n Antibody trafficking Payload distribution"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#q-s-p-preclinical-to-clinical-translation",
+    "href": "presentation/TranslationalResearch/index.html#q-s-p-preclinical-to-clinical-translation",
+    "title": "andreasmeid.github.io",
+    "section": "1: Q S P  Preclinical-to-clinical translation",
+    "text": "1: Q S P  Preclinical-to-clinical translation"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#q-s-p-translational-modeling-app",
+    "href": "presentation/TranslationalResearch/index.html#q-s-p-translational-modeling-app",
+    "title": "andreasmeid.github.io",
+    "section": "1: Q S P Translational modeling app",
+    "text": "1: Q S P Translational modeling app"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#tamoxifen-trials",
+    "href": "presentation/TranslationalResearch/index.html#tamoxifen-trials",
+    "title": "andreasmeid.github.io",
+    "section": "Tamoxifen trials",
+    "text": "Tamoxifen trials"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#gt-trial-to-real-world-translation",
+    "href": "presentation/TranslationalResearch/index.html#gt-trial-to-real-world-translation",
+    "title": "andreasmeid.github.io",
+    "section": "2: G&T  Trial-to-real-world  translation",
+    "text": "2: G&T  Trial-to-real-world  translation"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#gt-generalizability-transportability",
+    "href": "presentation/TranslationalResearch/index.html#gt-generalizability-transportability",
+    "title": "andreasmeid.github.io",
+    "section": "2: G&T Generalizability & Transportability",
+    "text": "2: G&T Generalizability & Transportability\n\n\nSubmitted manuscript"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#gt-expected-results",
+    "href": "presentation/TranslationalResearch/index.html#gt-expected-results",
+    "title": "andreasmeid.github.io",
+    "section": "2: G&T Expected results",
+    "text": "2: G&T Expected results\n\n\nLeiva IA & Meid AD."
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#gt-gt-modeling-app",
+    "href": "presentation/TranslationalResearch/index.html#gt-gt-modeling-app",
+    "title": "andreasmeid.github.io",
+    "section": "2: G&T G&T modeling app",
+    "text": "2: G&T G&T modeling app"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#rt-tamoxifen-trials",
+    "href": "presentation/TranslationalResearch/index.html#rt-tamoxifen-trials",
+    "title": "andreasmeid.github.io",
+    "section": "3: RT Tamoxifen trials",
+    "text": "3: RT Tamoxifen trials\ncontent"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#gt-testfolie",
+    "href": "presentation/TranslationalResearch/index.html#gt-testfolie",
+    "title": "andreasmeid.github.io",
+    "section": "2: G&T Testfolie",
+    "text": "2: G&T Testfolie"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#rt-reverse-translation",
+    "href": "presentation/TranslationalResearch/index.html#rt-reverse-translation",
+    "title": "andreasmeid.github.io",
+    "section": "3: RT  Reverse  translation",
+    "text": "3: RT  Reverse  translation"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#gt-t-dm1-use-case",
+    "href": "presentation/TranslationalResearch/index.html#gt-t-dm1-use-case",
+    "title": "andreasmeid.github.io",
+    "section": "2: G&T T-DM1 use-case",
+    "text": "2: G&T T-DM1 use-case\n\n\nObserved survival\n\n\n\n\nPrediction"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#definition",
+    "href": "presentation/TranslationalResearch/index.html#definition",
+    "title": "andreasmeid.github.io",
+    "section": "Definition",
+    "text": "Definition\n\nedibble stands for experimental design table (or tibble)\n\neins\nzwei\ndrei"
   }
 ]

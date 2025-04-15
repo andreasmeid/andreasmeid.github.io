@@ -18,13 +18,15 @@ website:
     style: "docked"
     background: light
     contents:
-      - href: test.qmd 
-        text: Testseite
+      - href: project/MAGIC-BULLET.qmd 
+        text: MAGIC-BULLET
+      - href: project/TREND-REVIVAL.qmd 
+        text: TREND-REVIVAL
       - section: Presentations
         #href: presentation/overview.qmd
         contents:
-        - text: Example presentation
-          href: presentation/Test_slides.qmd
+        - text: Translational research
+          href: presentation/Translational_slides.qmd
 
 format:
   html:
