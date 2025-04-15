@@ -18,9 +18,9 @@ website:
     style: "docked"
     background: light
     contents:
-      - href: project/MAGIC-BULLET.qmd 
+      - href: projects/MAGIC-BULLET.qmd 
         text: MAGIC-BULLET
-      - href: project/TREND-REVIVAL.qmd 
+      - href: projects/TREND-REVIVAL.qmd 
         text: TREND-REVIVAL
       - section: Presentations
         #href: presentation/overview.qmd
