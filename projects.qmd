@@ -15,7 +15,8 @@ I am currently in charge of two major projects:
 
 + 2024 EU Sanofi iDEA-TECH Awards in the section Real-World Evidence development about Generalizability & Transportability methods and multi-state modeling in multiple myeloma
 
-+ 2023 EU Sanofi iDEA-TECH Awards in the section Drug Metabolism & Pharmacokinetics about a translational modeling platform for ADCs
++ 2023 EU Sanofi iDEA-TECH Awards in the section Drug Metabolism & Pharmacokinetics about a translational modeling platform for antibody-drug conjugates (ADCs)
+
 
 
 

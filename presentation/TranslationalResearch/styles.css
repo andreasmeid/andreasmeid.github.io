@@ -105,8 +105,8 @@ title-slide .author:after {
 
 
 .story {
-  background-color: black;
-  color: white;
+  background-color: rgb(255, 87, 51);
+  color: black;
   font-size: 0.75em;
   padding: 10px;
   font-family: 'Roboto Condensed', sans-serif;

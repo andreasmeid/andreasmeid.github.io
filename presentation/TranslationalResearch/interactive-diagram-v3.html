@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interactive Diagram</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: transparent;
+    }
+
+    .container {
+      position: relative;
+      width: 700px;
+      height: 600px;
+	  background-color: transparent;
+    }
+
+    .box {
+      position: absolute;
+      padding: 14px 24px;
+      background-color: #000000;
+      color: white;
+      border-radius: 8px;
+      font-size: 24px;
+    }
+
+    #preclinical {
+      bottom: 100px;
+      left: -28px;
+    }
+
+    #clinical {
+      top: 55px;
+      left: 44%;
+      transform: translateX(-50%);
+    }
+
+    #realworld {
+      bottom: 100px;
+      right: 35px;
+    }
+
+    svg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    path.arrow {
+      stroke: black;
+      stroke-width: 9;
+      fill: none;
+      marker-end: url(#arrowhead);
+      transition: stroke 0.3s;
+    }
+
+    path.arrow:hover {
+      stroke: #ff5733;
+      marker-end: url(#arrowhead-hover);
+    }
+
+    .tooltip {
+      position: absolute;
+      top: 56%;
+      left: 43%;
+      transform: translate(-50%, -50%);
+      background-color: rgb(255, 87, 51);
+      color: black;
+      padding: 8px 14px;
+      border-radius: 6px;
+      font-size: 18px;
+      display: none;
+      pointer-events: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box" id="preclinical">Preclinical</div>
+    <div class="box" id="clinical">Clinical</div>
+    <div class="box" id="realworld">Real-world</div>
+
+    <svg>
+      <defs>
+        <!-- Arrowheads -->
+        <marker id="arrowhead" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto">
+          <polygon points="0 0, 12 4, 0 8" fill="black" />
+        </marker>
+        <marker id="arrowhead-hover" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto">
+          <polygon points="0 0, 12 4, 0 8" fill="#ff5733" />
+        </marker>
+      </defs>
+
+      <!-- Preclinical to Clinical (shifted arrowhead left) -->
+      <path class="arrow" d="M75,450 C130,280 260,180 295,125"
+            onmouseover="showTooltip('T1: Preclinical → Clinical')"
+            onmouseout="hideTooltip()" />
+
+      <!-- Clinical to Real-world -->
+      <path class="arrow" d="M310,110 C340,180 480,280 520,460"
+            onmouseover="showTooltip('T2: Clinical → Real-world')"
+            onmouseout="hideTooltip()" />
+
+      <!-- Real-world to Preclinical -->
+      <path class="arrow" d="M525,470 C350,660 150,590 110,470"
+            onmouseover="showTooltip('T3: Real-world → Preclinical')"
+            onmouseout="hideTooltip()" />
+    </svg>
+
+    <div class="tooltip" id="tooltip"></div>
+  </div>
+
+  <script>
+    function showTooltip(text) {
+      const tooltip = document.getElementById('tooltip');
+      tooltip.textContent = text;
+      tooltip.style.display = 'block';
+    }
+
+    function hideTooltip() {
+      document.getElementById('tooltip').style.display = 'none';
+    }
+  </script>
+</body>
+</html>

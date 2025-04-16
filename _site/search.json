@@ -165,7 +165,7 @@
     "href": "presentation/TranslationalResearch/index.html#q-s-p-the-scope-of-qsp",
     "title": "andreasmeid.github.io",
     "section": "1: Q S P The scope of QSP",
-    "text": "1: Q S P The scope of QSP\n\n\nMeid AD et al."
+    "text": "1: Q S P The scope of QSP\n\n\nMeid AD et al. Translational QSP modeling platform for ADCs Submitted to JPharmacokinetPharmacodyn"
   },
   {
     "objectID": "presentation/TranslationalResearch/index.html#q-s-p-title",
@@ -179,7 +179,7 @@
     "href": "presentation/TranslationalResearch/index.html#q-s-p-translational-pipeline",
     "title": "andreasmeid.github.io",
     "section": "1: Q S P Translational pipeline",
-    "text": "1: Q S P Translational pipeline\n\nCellular levelIn vivo levelClinical level\n\n\n Antibody trafficking Payload distribution"
+    "text": "1: Q S P Translational pipeline\n\nCellular levelIn vivo levelClinical level\n\n\n Antibody trafficking Payload distribution \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMeid AD et al. Translational QSP modeling platform for ADCs Submitted to JPharmacokinetPharmacodyn"
   },
   {
     "objectID": "presentation/TranslationalResearch/index.html#q-s-p-preclinical-to-clinical-translation",
@@ -214,14 +214,14 @@
     "href": "presentation/TranslationalResearch/index.html#gt-generalizability-transportability",
     "title": "andreasmeid.github.io",
     "section": "2: G&T Generalizability & Transportability",
-    "text": "2: G&T Generalizability & Transportability\n\n\nSubmitted manuscript"
+    "text": "2: G&T Generalizability & Transportability\n\n\nVuong Q. et al Ann Epidemiol 2025; 104:61-70"
   },
   {
     "objectID": "presentation/TranslationalResearch/index.html#gt-expected-results",
     "href": "presentation/TranslationalResearch/index.html#gt-expected-results",
     "title": "andreasmeid.github.io",
     "section": "2: G&T Expected results",
-    "text": "2: G&T Expected results\n\n\nLeiva IA & Meid AD."
+    "text": "2: G&T Expected results\n\n\nLeiva IA & Meid AD. Transporting trial results to synthetic real-world population Submitted to BMJOpen"
   },
   {
     "objectID": "presentation/TranslationalResearch/index.html#gt-gt-modeling-app",
@@ -235,7 +235,7 @@
     "href": "presentation/TranslationalResearch/index.html#rt-tamoxifen-trials",
     "title": "andreasmeid.github.io",
     "section": "3: RT Tamoxifen trials",
-    "text": "3: RT Tamoxifen trials\ncontent"
+    "text": "3: RT Tamoxifen trials\ncontent\n\nLeiva IA & Meid AD. Extending oncology trial results to real-world populations Submitted to BMC Med Res Methodol"
   },
   {
     "objectID": "presentation/TranslationalResearch/index.html#gt-testfolie",
@@ -256,13 +256,223 @@
     "href": "presentation/TranslationalResearch/index.html#gt-t-dm1-use-case",
     "title": "andreasmeid.github.io",
     "section": "2: G&T T-DM1 use-case",
-    "text": "2: G&T T-DM1 use-case\n\n\nObserved survival\n\n\n\n\nPrediction"
+    "text": "2: G&T T-DM1 use-case\n\n\nObserved survival\n\n\n\n\nPrediction\n\n\n\nLeiva IA & Meid AD. Extending oncology trial results to real-world populations Submitted to BMC Med Res Methodol"
   },
   {
     "objectID": "presentation/TranslationalResearch/index.html#definition",
     "href": "presentation/TranslationalResearch/index.html#definition",
     "title": "andreasmeid.github.io",
     "section": "Definition",
-    "text": "Definition\n\nedibble stands for experimental design table (or tibble)\n\neins\nzwei\ndrei"
+    "text": "Definition\n\nDefining translational research\n\nA plethora of attempts in various fields to define the term “translational research” (cancer medicine was most influential).\n“Translational research transforms scientific discoveries arising from laboratory, clinical, or population studies into clinical applications to reduce cancer incidence, morbidity, and mortality.”\nThree stages of tranlational research T1-T3 to foster the multidirectional integration of basic research, patient-oriented research, and population-based research\n\n\n\nNational Cancer Institute (USA) Translational Research Working Group (TRWG)"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#attempts-to-define-translational-research",
+    "href": "presentation/TranslationalResearch/index.html#attempts-to-define-translational-research",
+    "title": "andreasmeid.github.io",
+    "section": "Attempts to define translational research",
+    "text": "Attempts to define translational research\n\n\nMany different approaches in the literature\n“Translational research transforms scientific discoveries arising from laboratory, clinical, or population studies into clinical applications to reduce cancer incidence, morbidity, and mortality.”\nThree stages of tranlational research T1-T3 to foster the multidirectional integration of basic research, patient-oriented research, and population-based research\n\n\n\nNational Cancer Institute (USA) Translational Research Working Group (TRWG)"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#defining-translational-research",
+    "href": "presentation/TranslationalResearch/index.html#defining-translational-research",
+    "title": "andreasmeid.github.io",
+    "section": "Defining translational research",
+    "text": "Defining translational research\n\n\nMany different approaches in the literature\n“Translational research transforms scientific discoveries arising from laboratory, clinical, or population studies into clinical applications to reduce cancer incidence, morbidity, and mortality.”\nThree stages of translational research T1-T3 to foster the multidirectional integration of basic, patient-oriented, and population-based research\n\n\n\nNational Cancer Institute (USA) Translational Research Working Group (TRWG)"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#t1-q-s-p-preclinical-to-clinical-translation",
+    "href": "presentation/TranslationalResearch/index.html#t1-q-s-p-preclinical-to-clinical-translation",
+    "title": "andreasmeid.github.io",
+    "section": "T1: Q S P  Preclinical-to-clinical translation",
+    "text": "T1: Q S P  Preclinical-to-clinical translation"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#t1-q-s-p-the-scope-of-qsp",
+    "href": "presentation/TranslationalResearch/index.html#t1-q-s-p-the-scope-of-qsp",
+    "title": "andreasmeid.github.io",
+    "section": "T1: Q S P The scope of QSP",
+    "text": "T1: Q S P The scope of QSP\n\n\nMeid AD et al. Translational QSP modeling platform for ADCs. Submitted to JPharmacokinetPharmacodyn"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#t1-q-s-p-translational-pipeline",
+    "href": "presentation/TranslationalResearch/index.html#t1-q-s-p-translational-pipeline",
+    "title": "andreasmeid.github.io",
+    "section": "T1: Q S P Translational pipeline",
+    "text": "T1: Q S P Translational pipeline\n\nCellular levelIn vivo levelClinical level\n\n\n Antibody trafficking Payload distribution \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMeid AD et al. Translational QSP modeling platform for ADCs. Submitted to JPharmacokinetPharmacodyn"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#t1-q-s-p-translational-modeling-app",
+    "href": "presentation/TranslationalResearch/index.html#t1-q-s-p-translational-modeling-app",
+    "title": "andreasmeid.github.io",
+    "section": "T1: Q S P Translational modeling app",
+    "text": "T1: Q S P Translational modeling app"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#t2-gt-trial-to-real-world-translation",
+    "href": "presentation/TranslationalResearch/index.html#t2-gt-trial-to-real-world-translation",
+    "title": "andreasmeid.github.io",
+    "section": "T2: G&T  Trial-to-real-world  translation",
+    "text": "T2: G&T  Trial-to-real-world  translation"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#t2-gt-generalizability-transportability",
+    "href": "presentation/TranslationalResearch/index.html#t2-gt-generalizability-transportability",
+    "title": "andreasmeid.github.io",
+    "section": "T2: G&T Generalizability & Transportability",
+    "text": "T2: G&T Generalizability & Transportability\n\n\nVuong Q. et al. Ann Epidemiol 2025; 104:61-70"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#t2-gt-expected-results",
+    "href": "presentation/TranslationalResearch/index.html#t2-gt-expected-results",
+    "title": "andreasmeid.github.io",
+    "section": "T2: G&T Expected results",
+    "text": "T2: G&T Expected results\n\n\nLeiva IA & Meid AD. Transporting trial results to synthetic real-world population. Submitted to BMJOpen"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#t2-gt-t-dm1-use-case",
+    "href": "presentation/TranslationalResearch/index.html#t2-gt-t-dm1-use-case",
+    "title": "andreasmeid.github.io",
+    "section": "T2: G&T T-DM1 use-case",
+    "text": "T2: G&T T-DM1 use-case\n\n\nObserved survival\n\n\n\n\nPrediction\n\n\n\nLeiva IA & Meid AD. Extending oncology trial results to real-world populations. Submitted to BMC Med Res Methodol"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#t2-gt-gt-modeling-app",
+    "href": "presentation/TranslationalResearch/index.html#t2-gt-gt-modeling-app",
+    "title": "andreasmeid.github.io",
+    "section": "T2: G&T G&T modeling app",
+    "text": "T2: G&T G&T modeling app"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#t3-rt-reverse-translation",
+    "href": "presentation/TranslationalResearch/index.html#t3-rt-reverse-translation",
+    "title": "andreasmeid.github.io",
+    "section": "T3: RT  Reverse  translation",
+    "text": "T3: RT  Reverse  translation"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#t3-rt-tamoxifen-trials",
+    "href": "presentation/TranslationalResearch/index.html#t3-rt-tamoxifen-trials",
+    "title": "andreasmeid.github.io",
+    "section": "T3: RT Tamoxifen trials",
+    "text": "T3: RT Tamoxifen trials\ncontent\n\nLeiva IA & Meid AD. Extending oncology trial results to real-world populations. Submitted to BMC Med Res Methodol"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#t3-rt-tamoxifen-real-world-studies",
+    "href": "presentation/TranslationalResearch/index.html#t3-rt-tamoxifen-real-world-studies",
+    "title": "andreasmeid.github.io",
+    "section": "T3: RT Tamoxifen real-world studies",
+    "text": "T3: RT Tamoxifen real-world studies\n\n\nWHEL study: Madlensky L et al. Clin Pharmacol Ther 2011; 89: 718-25."
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#t3-rt-tamoxifen-target-trial",
+    "href": "presentation/TranslationalResearch/index.html#t3-rt-tamoxifen-target-trial",
+    "title": "andreasmeid.github.io",
+    "section": "T3: RT Tamoxifen TARGET trial",
+    "text": "T3: RT Tamoxifen TARGET trial\n\nStudy designEndpointExposure-Response\n\n\n\n\n\n\n\n\n\n\nEND by group\n\n\n\n\nEND by endpoint\n\n\n\n\n\n\nTARGET-1 trial: Tamura K et al. J Clin Oncol 2020; 38:558-566."
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#a-plan-for-reverse-translation",
+    "href": "presentation/TranslationalResearch/index.html#a-plan-for-reverse-translation",
+    "title": "andreasmeid.github.io",
+    "section": "A plan for reverse translation?",
+    "text": "A plan for reverse translation?"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#recap-and-next-steps",
+    "href": "presentation/TranslationalResearch/index.html#recap-and-next-steps",
+    "title": "andreasmeid.github.io",
+    "section": "Recap and next steps …",
+    "text": "Recap and next steps …\n\n\n\nProjects at stages\n\n\n T1: QSP modeling \n T2: G&T modeling \n T3: Reverse translation"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#section",
+    "href": "presentation/TranslationalResearch/index.html#section",
+    "title": "andreasmeid.github.io",
+    "section": "]",
+    "text": "]\n\n\n\n\n\n\n\n\n\n–\n\n\n\n\n\n\n\n\n\n–\n\n\n\n\n\n\n\n\n\n–"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#section-1",
+    "href": "presentation/TranslationalResearch/index.html#section-1",
+    "title": "andreasmeid.github.io",
+    "section": "]",
+    "text": "]\n.center2["
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#section-2",
+    "href": "presentation/TranslationalResearch/index.html#section-2",
+    "title": "andreasmeid.github.io",
+    "section": "]",
+    "text": "]\n.center2["
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#section-3",
+    "href": "presentation/TranslationalResearch/index.html#section-3",
+    "title": "andreasmeid.github.io",
+    "section": "]",
+    "text": "]\n.center2[\n\n\n\n\n\n\n\n\n\n]"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#questions",
+    "href": "presentation/TranslationalResearch/index.html#questions",
+    "title": "andreasmeid.github.io",
+    "section": "Questions ?",
+    "text": "Questions ?"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#discussion",
+    "href": "presentation/TranslationalResearch/index.html#discussion",
+    "title": "andreasmeid.github.io",
+    "section": "Discussion",
+    "text": "Discussion"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#quantitative-pharmacologist---current-role",
+    "href": "presentation/TranslationalResearch/index.html#quantitative-pharmacologist---current-role",
+    "title": "andreasmeid.github.io",
+    "section": "‘Quantitative Pharmacologist’ - current role",
+    "text": "‘Quantitative Pharmacologist’ - current role"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#where-could-this-role-lead-professionally",
+    "href": "presentation/TranslationalResearch/index.html#where-could-this-role-lead-professionally",
+    "title": "andreasmeid.github.io",
+    "section": "Where could this role lead professionally?",
+    "text": "Where could this role lead professionally?\n\n\n\n\n\n\n\n\n\n\n\n\n\nHome"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#a-plan-for-reverse-translation-.incrementaltrue",
+    "href": "presentation/TranslationalResearch/index.html#a-plan-for-reverse-translation-.incrementaltrue",
+    "title": "andreasmeid.github.io",
+    "section": "A plan for reverse translation? {.incremental=TRUE}",
+    "text": "A plan for reverse translation? {.incremental=TRUE}\n {.fragment}  {.fragment}"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#formal-biosketch",
+    "href": "presentation/TranslationalResearch/index.html#formal-biosketch",
+    "title": "andreasmeid.github.io",
+    "section": "Formal biosketch",
+    "text": "Formal biosketch\n\n\nTraining\n\nPharmacist and Biometrician / Biostatistician (master thesis at Merck Serono, Clinical Pharmacokinetics)\nDoctorate in Pharmacoepidemiology (PhEpi) at Heidelberg University Hospital\nHabilitation in Clinical Pharmacology and PhEpi at Heidelberg University\n\nWork experience\n\nGroup leader at Heidelberg Clinical Pharmacology & Pharmacoepi [1]\nBiometric and PMx support of IITs\nPharmacological counselling support (model-based TDM)\nResearch focus [1,2]: Model-informed decision making with RWE and PMx\n\n\n\n\n[1] Heidelberg University Hospital (UKHD) Homepage  [2] Netlify Research Profile"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#a-framework-for-translational-research",
+    "href": "presentation/TranslationalResearch/index.html#a-framework-for-translational-research",
+    "title": "andreasmeid.github.io",
+    "section": "A framework for translational research",
+    "text": "A framework for translational research"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#the-definition",
+    "href": "presentation/TranslationalResearch/index.html#the-definition",
+    "title": "andreasmeid.github.io",
+    "section": "The Definition",
+    "text": "The Definition\n\n\nMany alternative approaches in the literature\n“Translational research transforms scientific discoveries arising from laboratory, clinical, or population studies into clinical applications to reduce cancer incidence, morbidity, and mortality.”\nThree stages of translational research T1-T3 to foster the multidirectional integration of basic, patient-oriented, and population-based research\n\n\n\nNational Cancer Institute (USA) Translational Research Working Group (TRWG)"
+  },
+  {
+    "objectID": "presentation/TranslationalResearch/index.html#the-framework",
+    "href": "presentation/TranslationalResearch/index.html#the-framework",
+    "title": "andreasmeid.github.io",
+    "section": "The framework",
+    "text": "The framework"
   }
 ]
