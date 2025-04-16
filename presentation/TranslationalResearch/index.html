@@ -186,33 +186,28 @@ By the end of this presentation, you’ll have a great understanding of ...
 </section>
 <section id="translational-research-1" class="slide level2" data-background="#43464B" data-background-image="img/DrugSymposium_Background.png">
 <h2>Translational research</h2>
-<!-- ![:scale 65%](img/Population.png) -->
-</section>
-<section id="definition" class="slide level2">
-<h2>Definition</h2>
-<div class="info-box">
-<p><code>edibble</code> stands for <strong>e</strong>xperimental <strong>d</strong>esign table (or <code>t</code><strong><code>ibble</code></strong>)</p>
-<ul>
-<li>eins</li>
-<li>zwei</li>
-<li>drei</li>
-</ul>
-</div>
 <!--
-
-
-
----
 # Context, Problem, Solution
-
-Figure with states, transitions, models as solutions
-
 
 Context: In this presentation, I’m going to talk about ...
 Problem: We all know that ...
 Solution: The good news is that ...
 
 -->
+</section>
+<section id="the-definition" class="slide level2">
+<h2>The Definition</h2>
+<div class="info-box">
+<ul>
+<li>Many alternative approaches in the literature</li>
+<li><em>“Translational research transforms scientific discoveries arising from</em> <strong>laboratory</strong>, <strong>clinical</strong>, <em>or</em> <strong>population</strong> <em>studies into clinical applications to reduce cancer incidence, morbidity, and mortality.”</em></li>
+<li>Three stages of translational research <strong>T1-T3</strong> to foster the multidirectional integration of basic, patient-oriented, and population-based research</li>
+</ul>
+</div>
+<div class="footer">
+<p>National Cancer Institute (USA) Translational Research Working Group (TRWG)</p>
+</div>
+<!-- Rubio DM, Schoenbaum EE, Lee LS, Schteingart DE, Marantz PR, Anderson KE, Platt LD, Baez A, Esposito K. Defining translational research: implications for training. Acad Med 2010;85:470-5. -->
 <!-- Then tell them what they need to do if they want to be successful: Thanks for having me here today to talk about how ... you want to be ...  
 ggf. 
 A surprising fact or a shocking statistic
@@ -221,152 +216,25 @@ A thought-provoking question
 A story, metaphor or analogy
 -->
 </section>
-<section id="step-1-boxes-only" class="slide level2">
-<h2>Step 1: Boxes Only</h2>
-<div class="{=html}">
-<div class="interactive-boxes">
-<div class="box clinical">
-Clinical
-</div>
-<div class="box preclinical">
-Preclinical
-</div>
-<div class="box realworld">
-Real-world
-</div>
-</div>
-<style>
-.interactive-boxes {
-  position: relative;
-  width: 600px;
-  height: 400px;
-  margin: auto;
-}
-
-.box {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #4a80d6;
-  color: white;
-  border-radius: 8px;
-  position: absolute;
-  text-align: center;
-  transition: background-color 0.3s ease;
-}
-
-.box:hover {
-  background-color: #6daaff;
-}
-
-.clinical { top: 20px; left: 230px; }
-.preclinical { bottom: 40px; left: 80px; }
-.realworld { bottom: 40px; right: 80px; }
-</style>
-</div>
+<section id="the-framework" class="slide level2">
+<h2>The framework</h2>
+<iframe src="interactive-diagram-v3.html" width="100%" height="600px" allowtransparency="true" style="background: transparent; border:none;" allowfullscreen="" mozallowfullscreen="" webkitallowfullscreen="">
+</iframe>
 </section>
-<section id="step-2-arrows-only-debug-mode" class="slide level2">
-<h2>Step 2: Arrows Only (Debug Mode)</h2>
-<svg viewbox="0 0 600 400" width="600" height="400" style="display: block; margin: auto; background-color: #f5f5f5;">
-</svg><p><defs> <marker id="arrowhead" markerwidth="10" markerheight="7" refx="0" refy="3.5" orient="auto"> <polygon points="0 0, 10 3.5, 0 7" fill="black"> </polygon></marker> </defs></p>
-<!-- Simple Line Test -->
-<p><line x1="100" y1="100" x2="500" y2="100" stroke="black" stroke-width="4" marker-end="url(#arrowhead)"></line></p>
-<!-- Curved Line Test -->
-<path d="M100,200 C200,100 400,300 500,200" marker-end="url(#arrowhead)" stroke="black" stroke-width="4" fill="none">
-
-</path></section>
-<section id="together" class="slide level2">
-<h2>Together</h2>
-<div class="{=html}">
-<div class="interactive-diagram">
-<p><!-- SVG Arrow Layer --> <svg class="arrow-layer" viewbox="0 0 600 400"> <defs> <marker id="arrowhead" markerwidth="10" markerheight="7" refx="0" refy="3.5" orient="auto"> <polygon points="0 0, 10 3.5, 0 7" fill="#95a8d8"></polygon> </marker> </defs></svg></p>
-<pre><code>&lt;!-- Preclinical -&gt; Clinical --&gt;
-&lt;path d="M140,300 C140,200 300,150 300,80" 
-      marker-end="url(#arrowhead)" class="arrow-path"&gt;
-  &lt;title&gt;Preclinical to Clinical&lt;/title&gt;
-&lt;/path&gt;
-
-&lt;!-- Real-world -&gt; Clinical --&gt;
-&lt;path d="M460,300 C460,200 300,150 300,80" 
-      marker-end="url(#arrowhead)" class="arrow-path"&gt;
-  &lt;title&gt;Real-world to Clinical&lt;/title&gt;
-&lt;/path&gt;
-
-&lt;!-- Clinical -&gt; Real-world --&gt;
-&lt;path d="M300,80 C320,160 400,230 450,300" 
-      marker-end="url(#arrowhead)" class="arrow-path"&gt;
-  &lt;title&gt;Clinical to Real-world&lt;/title&gt;
-&lt;/path&gt;</code></pre>
-<p></p>
-<!-- Boxes -->
-<div class="box clinical">
-Clinical
-</div>
-<div class="box preclinical">
-Preclinical
-</div>
-<div class="box realworld">
-Real-world
-</div>
-</div>
-<style>
-.interactive-diagram {
-  position: relative;
-  width: 600px;
-  height: 400px;
-  margin: auto;
-}
-
-.box {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #4a80d6;
-  color: white;
-  border-radius: 8px;
-  position: absolute;
-  text-align: center;
-  transition: background-color 0.3s ease;
-  z-index: 10;
-}
-
-.box:hover {
-  background-color: #6daaff;
-}
-
-.clinical { top: 20px; left: 230px; }
-.preclinical { bottom: 40px; left: 80px; }
-.realworld { bottom: 40px; right: 80px; }
-
-.arrow-layer {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 600px;
-  height: 400px;
-  z-index: 1;
-}
-
-.arrow-path {
-  fill: none;
-  stroke: #95a8d8;
-  stroke-width: 4;
-  transition: stroke 0.3s ease;
-}
-
-.arrow-path:hover {
-  stroke: #ff8c42;
-}
-</style>
-</div>
+<section id="t1-q-s-p-preclinical-to-clinical-translation" class="slide level2" data-background="#43464B" data-background-image="img/background04.png">
+<h2><span class="story">T1: Q S P</span> <br> Preclinical-to-clinical translation</h2>
+<iframe src="interactive-diagram-v3.html" width="100%" height="600px" allowtransparency="true" style="background: transparent; border:none;position: relative; top: -135px;" allowfullscreen="" mozallowfullscreen="" webkitallowfullscreen="">
+</iframe>
 </section>
-<section id="q-s-p-the-scope-of-qsp" class="slide level2">
-<h2><span class="story">1: Q S P</span> The scope of QSP</h2>
+<section id="t1-q-s-p-the-scope-of-qsp" class="slide level2">
+<h2><span class="story">T1: Q S P</span> The scope of QSP</h2>
 
 <img data-src="img/FigS1.png" class="r-stretch"><div class="footer">
-<p>Meid AD et al.&nbsp;</p>
+<p>Meid AD et al.&nbsp;<em>Translational QSP modeling platform for ADCs</em>. Submitted to <em>JPharmacokinetPharmacodyn</em></p>
 </div>
 </section>
-<section id="q-s-p-translational-pipeline" class="slide level2">
-<h2><span class="story">1: Q S P</span> Translational pipeline</h2>
+<section id="t1-q-s-p-translational-pipeline" class="slide level2">
+<h2><span class="story">T1: Q S P</span> Translational pipeline</h2>
 <div class="panel-tabset">
 <ul id="tabset-1" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-1-1">Cellular level</a></li><li><a href="#tabset-1-2">In vivo level</a></li><li><a href="#tabset-1-3">Clinical level</a></li></ul>
 <div class="tab-content">
@@ -405,64 +273,238 @@ window.onload = function() {
 </div>
 </div>
 </div>
+<div class="footer">
+<p>Meid AD et al.&nbsp;<em>Translational QSP modeling platform for ADCs</em>. Submitted to <em>JPharmacokinetPharmacodyn</em></p>
+</div>
 </section>
-<section id="q-s-p-translational-modeling-app" class="slide level2">
-<h2><span class="story">1: Q S P</span> Translational modeling app</h2>
+<section id="t1-q-s-p-translational-modeling-app" class="slide level2">
+<h2><span class="story">T1: Q S P</span> Translational modeling app</h2>
 <iframe src="https://magic-bullet.shinyapps.io/JPharmacokinetPharmacodyn" width="100%" height="600px" style="border:none;" allowfullscreen="" mozallowfullscreen="" webkitallowfullscreen="">
 </iframe>
 </section>
 <section class="slide level2">
 
-<h3 id="q-s-p-clinical-trial-simulation"><span class="story">1: Q S P</span> Clinical trial simulation</h3>
+<h3 id="t1-q-s-p-clinical-trial-simulation"><span class="story">T1: Q S P</span> Clinical trial simulation</h3>
 
-<img data-src="img/CTS.png" class="r-stretch"></section>
-<section id="gt-trial-to-real-world-translation" class="slide level2" data-background="#43464B" data-background-image="img/background02.png">
-<h2><span class="story">2: G&amp;T</span> <br> Trial-to-real-world <br> translation</h2>
+<img data-src="img/CTS.png" class="r-stretch"><div class="footer">
+<p>Meid AD et al.&nbsp;<em>Translational QSP modeling platform for ADCs</em>. Submitted to <em>JPharmacokinetPharmacodyn</em></p>
+</div>
 </section>
-<section id="gt-generalizability-transportability" class="slide level2">
-<h2><span class="story">2: G&amp;T</span> Generalizability &amp; Transportability</h2>
+<section id="t2-gt-trial-to-real-world-translation" class="slide level2" data-background="#43464B" data-background-image="img/background02.png">
+<h2><span class="story">T2: G&amp;T</span> <br> Trial-to-real-world <br> translation</h2>
+<iframe src="interactive-diagram-v3.html" width="100%" height="600px" allowtransparency="true" style="background: transparent; border:none;position: relative; top: -135px;" allowfullscreen="" mozallowfullscreen="" webkitallowfullscreen="">
+</iframe>
+</section>
+<section id="t2-gt-generalizability-transportability" class="slide level2">
+<h2><span class="story">T2: G&amp;T</span> Generalizability &amp; Transportability</h2>
 
 <img data-src="img/GandT.png" class="r-stretch"><div class="footer">
-<p>Submitted manuscript</p>
+<p><em>Vuong Q. et al.&nbsp;Ann Epidemiol 2025; 104:61-70</em></p>
 </div>
 </section>
-<section id="gt-expected-results" class="slide level2">
-<h2><span class="story">2: G&amp;T</span> Expected results</h2>
+<section id="t2-gt-expected-results" class="slide level2">
+<h2><span class="story">T2: G&amp;T</span> Expected results</h2>
 
 <img data-src="img/simulation.png" class="r-stretch"><div class="footer">
-<p>Leiva IA &amp; Meid AD.</p>
+<p>Leiva IA &amp; Meid AD. <em>Transporting trial results to synthetic real-world population</em>. Submitted to <em>BMJOpen</em></p>
 </div>
 </section>
-<section id="gt-t-dm1-use-case" class="slide level2">
-<h2><span class="story">2: G&amp;T</span> T-DM1 use-case</h2>
+<section id="t2-gt-t-dm1-use-case" class="slide level2">
+<h2><span class="story">T2: G&amp;T</span> T-DM1 use-case</h2>
 <div class="columns">
-<div class="column" style="width:66%;">
+<div class="column" style="width:61%;">
 <h4 id="observed-survival">Observed survival</h4>
-<p><img data-src="img/TDM1_OS.png"></p>
+<p><img data-src="img/TDM1_OS2.png"></p>
 </div><div class="column" style="width:1%;">
 
-</div><div class="column" style="width:33%;">
+</div><div class="column" style="width:38%;">
 <h4 id="prediction">Prediction</h4>
-<p><img data-src="img/TDM1_OS_predicted.png"></p>
+<p><img data-src="img/TDM1_OS_predicted2.png"></p>
 </div></div>
+<div class="footer">
+<p>Leiva IA &amp; Meid AD. <em>Extending oncology trial results to real-world populations</em>. Submitted to <em>BMC Med Res Methodol</em></p>
+</div>
 </section>
-<section id="gt-gt-modeling-app" class="slide level2">
-<h2><span class="story">2: G&amp;T</span> G&amp;T modeling app</h2>
+<section id="t2-gt-gt-modeling-app" class="slide level2">
+<h2><span class="story">T2: G&amp;T</span> G&amp;T modeling app</h2>
 <iframe src="https://magic-bullet.shinyapps.io/TREND-REVIVAL" width="100%" height="600px" style="border:none;" allowfullscreen="" mozallowfullscreen="" webkitallowfullscreen="">
 </iframe>
 </section>
-<section id="rt-reverse-translation" class="slide level2" data-background="#43464B" data-background-image="img/background02.png">
-<h2><span class="story">3: RT</span> <br> Reverse <br> translation</h2>
+<section id="t3-rt-reverse-translation" class="slide level2" data-background="#43464B" data-background-image="img/background02.png">
+<h2><span class="story">T3: RT</span> <br> Reverse <br> translation</h2>
+<iframe src="interactive-diagram-v3.html" width="100%" height="600px" allowtransparency="true" style="background: transparent; border:none;position: relative; top: -135px;" allowfullscreen="" mozallowfullscreen="" webkitallowfullscreen="">
+</iframe>
 </section>
-<section id="rt-tamoxifen-trials" class="slide level2">
-<h2><span class="story">3: RT</span> Tamoxifen trials</h2>
-<p>content</p>
+<section id="t3-rt-tamoxifen-real-world-studies" class="slide level2">
+<h2><span class="story">T3: RT</span> Tamoxifen real-world studies</h2>
+
+<img data-src="img/TAM_WHEL.png" class="r-stretch"><div class="footer">
+<p>WHEL study: Madlensky L et al.&nbsp;<em>Clin Pharmacol Ther 2011; 89: 718-25.</em></p>
+</div>
 </section>
-<section class="slide level2">
+<section id="t3-rt-tamoxifen-target-trial" class="slide level2">
+<h2><span class="story">T3: RT</span> Tamoxifen TARGET trial</h2>
+<div class="panel-tabset">
+<ul id="tabset-2" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-2-1">Study design</a></li><li><a href="#tabset-2-2">Endpoint</a></li><li><a href="#tabset-2-3">Exposure-Response</a></li></ul>
+<div class="tab-content">
+<div id="tabset-2-1">
+<p><img data-src="img/TAM_TARGET_Design.png"></p>
+</div>
+<div id="tabset-2-2">
+<p><img data-src="img/TAM_TARGET_PFS.png"></p>
+</div>
+<div id="tabset-2-3">
+<div class="columns">
+<div class="column" style="width:48%;">
+<h4 id="end-by-group">END by group</h4>
+<p><img data-src="img/TAM_TARGET_END_by_group.png"></p>
+</div><div class="column" style="width:2%;">
+
+</div><div class="column" style="width:48%;">
+<h4 id="end-by-endpoint">END by endpoint</h4>
+<p><img data-src="img/TAM_TARGET_END_by_endpoint.png"></p>
+</div></div>
+</div>
+</div>
+</div>
+<div class="footer">
+<p>TARGET-1 trial: Tamura K et al.&nbsp;<em>J Clin Oncol 2020; 38:558-566.</em></p>
+</div>
+</section>
+<section id="a-plan-for-reverse-translation" class="slide level2 incremental">
+<h2>A plan for reverse translation?</h2>
+</section>
+<section id="recap-and-next-steps" class="slide level2">
+<h2>Recap and next steps …</h2>
+<style>
+
+.center2 {
+  margin: 0;
+  position: absolute;
+  top: 10%;
+  left: 30%;
+  
+}
+
+<!-- 
+  top: 50%;
+  left: 66%;
+-ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+-->
+
+</style>
+<div class="columns">
+<div class="column" style="width:30%;">
+<h3 id="projects-at-stages">Projects at stages</h3>
+<!-- 
+- <font color='black'> Empirical PK/PD </font>
+
+- <font color='green'> Empirical D/E-R </font>
+-->
+<ul>
+<li><p><font color="blue"> T1: QSP modeling </font></p></li>
+<li><p><font color="orange"> T2: G&amp;T modeling </font></p></li>
+<li><p><font color="red"> T3: Reverse translation </font></p></li>
+</ul>
+</div><div class="column" style="width:70%;">
+<div>
+<div class="fragment">
+<div class="center2">
+<div class="cell" data-bg="transparent">
+<div class="cell-output-display">
+<div>
+<figure>
+<p><img data-src="index_files/figure-revealjs/toolbox_PKPD-1.png" width="800" height="600"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="fragment">
+<div class="center2">
+<div class="cell" data-bg="transparent">
+<div class="cell-output-display">
+<div>
+<figure>
+<p><img data-src="index_files/figure-revealjs/toolbox_DER-1.png" width="800" height="600"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="fragment">
+<div class="center2">
+<div class="cell" data-bg="transparent">
+<div class="cell-output-display">
+<div>
+<figure>
+<p><img data-src="index_files/figure-revealjs/toolbox_semi-1.png" width="800" height="600"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="fragment">
+<div class="center2">
+<div class="cell" data-bg="transparent">
+<div class="cell-output-display">
+<div>
+<figure>
+<p><img data-src="index_files/figure-revealjs/toolbox_PBPK-1.png" width="800" height="600"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+<!-- 
+-->
+</section>
+<section id="questions" class="slide level2" data-background="#43464B" data-background-image="img/background06.png">
+<h2>Questions ?</h2>
+</section>
+<section id="discussion" class="slide level2" data-background="#43464B" data-background-image="img/background06.png">
+<h2>Discussion</h2>
+</section>
+<section id="formal-biosketch" class="slide level2">
+<h2>Formal biosketch</h2>
+<div style="font-size: 75%;">
+<ul>
+<li>Training
+<ul>
+<li>Pharmacist and Biometrician / Biostatistician (master thesis at Merck Serono, Clinical Pharmacokinetics)</li>
+<li>Doctorate in Pharmacoepidemiology (PhEpi) at Heidelberg University Hospital</li>
+<li>Habilitation in Clinical Pharmacology and PhEpi at Heidelberg University</li>
+</ul></li>
+<li>Work experience
+<ul>
+<li>Group leader at Heidelberg Clinical Pharmacology &amp; Pharmacoepi [1]</li>
+<li>Biometric and PMx support of IITs</li>
+<li>Pharmacological counselling support (model-based TDM)</li>
+<li>Research focus [1,2]: Model-informed decision making with RWE and PMx</li>
+</ul></li>
+</ul>
+</div>
+<div class="footer">
+<p>[1] <a href="https://www.klinikum.uni-heidelberg.de/kliniken-institute/kliniken/zentrum-fuer-innere-medizin-krehl-klinik/abt-klinische-pharmakologie-und-pharmakoepidemiologie/phepi">Heidelberg University Hospital (UKHD) Homepage</a> <br> [2] <a href="https://andreas-d-meid.netlify.app/">Netlify Research Profile</a></p>
+</div>
+</section>
+<section id="quantitative-pharmacologist---current-role" class="slide level2">
+<h2>‘Quantitative Pharmacologist’ - current role</h2>
+
+<img data-src="index_files/figure-revealjs/current_role-1.png" width="960" class="r-stretch"></section>
+<section id="where-could-this-role-lead-professionally" class="slide level2">
+<h2>Where could this role lead professionally?</h2>
 
 
 
-</section></section>
+<img data-src="index_files/figure-revealjs/future_role-1.png" width="960" class="r-stretch"></section></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <p><img src="img/footer.png" class="slide-logo"></p>
