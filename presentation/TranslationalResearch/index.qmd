@@ -394,8 +394,9 @@ TARGET-1 trial: Tamura K et al. _J Clin Oncol 2020; 38:558-566._
 
 ```{r toolbox_matrix, echo=FALSE, eval=T, results='hide', message=F, warning=F }
 # load plots
-library(ggplot2)
-library(ggstance)
+if(!require(ggplot2)) {install.packages("ggplot2"); library(ggplot2, quietly = TRUE)}
+if(!require(ggstance)) {install.packages("ggstance"); library(ggstance, quietly = TRUE)}
+
 # Example 2x2 matrix (importance scores)
 data_matrix <- matrix(c(
   2, 1,
